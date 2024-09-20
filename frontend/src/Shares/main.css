@@ -1,0 +1,121 @@
+:root {
+    --main-color: #0A2340;
+    --second-color: #5e189a;
+    --hover-color: #7a46a8;
+    --dark-color: #191919;
+    --overlay-color: #00000090;
+    --dark-color2:#333333;
+    --text-color:#808080;
+    --light-color:#e8eaed;
+    --transition: 0.5s ease;
+    /* Primary Colors:
+Deep Space Blue: #0A2340
+Stardust Silver: #B5B5B5
+Secondary Colors:
+Cosmic Purple: #8E44AD
+Celestial Green: #468499
+Accent Colors:
+Solar Yellow: #F9A825
+Nebula Pink: #FFB6C1 */
+  }
+  
+  html,
+  body {
+    height: 100%;
+    cursor: default;
+  }
+  .spiner{
+    color: var(--second-color);
+    width: 70px;
+    height: 70px;
+    top: 45%;
+    left: 45%;
+    position: fixed;
+  }
+  .z-200{
+    z-index: 200;
+  }
+  .t-center{
+    text-align: center;
+  }
+  .cursor-pointer{
+      cursor: pointer;
+  }
+  .d-flex-center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .hv-100{
+      height: 100vh;
+  }
+  .hv-90{
+    height: 90vh;
+  }
+  .wv-100{
+    width: 100vw;
+  }
+  .hover-color-change {
+    transition: var(--transition);
+  }
+  .hover-color-change:hover {
+    color: var(--second-color) !important;
+  }
+  .bg-overlay-color{
+    background-color: var(--overlay-color);
+  }
+  .main-color {
+    color: var(--main-color) !important;
+  }
+  
+  .bg-main-color {
+    background-color: var(--main-color) !important;
+  }
+
+  .second-color {
+    color: var(--second-color) !important;
+  }
+  
+  .bg-second-color {
+    background-color: var(--second-color) !important;
+  }
+  
+  .dark-color {
+    color: var(--dark-color) !important;
+  }
+  
+  .bg-dark-color {
+    background-color: var(--dark-color) !important;
+  }
+  
+  
+  .overflow-custom {
+    overflow: auto; /* Ensure scrolling is enabled */
+    scrollbar-width: thin; /* Firefox: Thin scrollbar */
+    scrollbar-color: transparent transparent; /* Firefox: Transparent scrollbar by default */
+  }
+  
+  .overflow-custom::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    background-color: transparent; /* Initial transparent background */
+  }
+  
+  .overflow-custom::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Initial transparent scrollbar thumb */
+  }
+  
+  .overflow-custom:hover::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0.1); /* Scrollbar background color on hover */
+  }
+  
+  .overflow-custom:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3); /* Scrollbar thumb color on hover */
+    border-radius: 4px; /* Rounded scrollbar thumb */
+  }
+  
+  /* Firefox support */
+  .overflow-custom:hover {
+    scrollbar-width: thin; /* Firefox: Thin scrollbar on hover */
+    scrollbar-color: rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.1); /* Firefox: Thumb and track color on hover */
+  }
+  
