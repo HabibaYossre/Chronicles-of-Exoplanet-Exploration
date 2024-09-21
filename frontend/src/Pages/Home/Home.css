@@ -1,3 +1,75 @@
 .video{
     
 }
+
+.parallax img{
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    z-index: 10;
+    pointer-events: none;
+}
+.planet-orbit1 {
+  animation: orbit1 15s linear infinite;
+}
+.planet-orbit2 {
+  animation: orbit2 25s ease-in-out infinite;
+}
+.planet-orbit3 {
+  animation: orbit3 30s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes orbit1 {
+  0% {
+    transform: translateX(50px) translateY(0); /* Starting position */
+  }
+  25% {
+    transform: translateX(100px) translateY(150px); /* Adjust for elliptical path */
+  }
+  50% {
+    transform: translateX(-150px) translateY(200px); /* Adjust for elliptical path */
+  }
+  75% {
+    transform: translateX(0px) translateY(100px); /* Adjust for elliptical path */
+  }
+  100% {
+    transform: translateX(50px) translateY(0); /* Back to starting position */
+  }
+}
+
+@keyframes orbit2 {
+  0% {
+    transform: translateX(0) translateY(-50px); /* Starting position */
+  }
+  25% {
+    transform: translateX(150px) translateY(0px); /* Adjust for elliptical path */
+  }
+  50% {
+    transform: translateX(0) translateY(150px); /* Adjust for elliptical path */
+  }
+  75% {
+    transform: translateX(-150px) translateY(0px); /* Adjust for elliptical path */
+  }
+  100% {
+    transform: translateX(0) translateY(-50px); /* Back to starting position */
+  }
+}
+
+@keyframes orbit3 {
+  0% {
+    transform: translateX(-50px) translateY(50px); /* Starting position */
+  }
+  25% {
+    transform: translateX(50px) translateY(-100px); /* Adjust for elliptical path */
+  }
+  50% {
+    transform: translateX(150px) translateY(50px); /* Adjust for elliptical path */
+  }
+  75% {
+    transform: translateX(-100px) translateY(-150px); /* Adjust for elliptical path */
+  }
+  100% {
+    transform: translateX(-50px) translateY(50px); /* Back to starting position */
+  }
+}
