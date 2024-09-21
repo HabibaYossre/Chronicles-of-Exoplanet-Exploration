@@ -19,6 +19,26 @@
 .planet-orbit3 {
   animation: orbit3 30s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
+.ast{
+    animation: astKey 30s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+@keyframes astKey {
+  0% {
+    transform: translateX(5px) translateY(0); /* Starting position */
+  }
+  25% {
+    transform: translateX(10px) translateY(42px); /* Adjust for small elliptical path */
+  }
+  50% {
+    transform: translateX(-15px) translateY(14px); /* Adjust for small elliptical path */
+  }
+  75% {
+    transform: translateX(0px) translateY(26px); /* Adjust for small elliptical path */
+  }
+  100% {
+    transform: translateX(5px) translateY(0); /* Back to starting position */
+  }
+}
 
 @keyframes orbit1 {
   0% {
