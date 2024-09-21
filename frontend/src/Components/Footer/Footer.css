@@ -1,0 +1,146 @@
+@import '../../Shares/main.css';
+.footer{
+    position: relative;
+    overflow: hidden;
+    height: 40vh;
+}
+ .footer-btn{
+    margin:10vw 0px 0px 10vw ;
+ }
+ .footer span{
+    padding: 14px 1px;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+ }
+ .footer .first {
+    border-left: 3px solid black; 
+    border-start-start-radius: 5px;
+    padding: 14px 0px 14px 35px;
+    border-end-start-radius: 5px;
+ }
+ .footer .last{
+    border-right: 3px solid black; 
+    border-start-end-radius: 5px;
+    padding: 14px 35px 14px 0px;
+    border-end-end-radius: 5px;
+ }
+ .footer .middle{
+    padding-left: 7px;
+ }
+ .footer span:hover{
+    border-top: 3px solid var(--second-color);
+    border-bottom: 3px solid var(--second-color);
+    color: var(--second-color);
+ }
+.first:hover {
+    border-left: 3px solid var(--second-color); 
+    color: var(--second-color);
+ }
+ .footer .last:hover{
+    border-right: 3px solid var(--second-color);
+    color: var(--second-color);
+ }
+.first:hover ~ .second,.second:hover ~ .third,.third:hover ~ .fourth,.fourth:hover ~ .fifth,.fifth:hover ~ .sixth,.sixth:hover ~ .seventh,.seventh:hover ~ .eighth,.eighth:hover ~ .ninth,.ninth:hover ~ .tenth,.tenth:hover ~ .eleventh,.eleventh:hover ~ .twelfth {
+    border-top: 3px solid var(--second-color);
+    border-bottom:  3px solid var(--second-color);
+    color: var(--second-color);
+ }
+ .twelfth:hover ~ .last{
+    border-right: 3px solid var(--second-color);
+    border-top: 3px solid var(--second-color);
+    border-bottom: 3px solid var(--second-color);
+    color: var(--second-color);
+ }
+.footer img{
+    position: absolute;
+    z-index: 20;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25vw;
+    height: 17vw;
+}
+.cursor{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: var(--light-color);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.eyes {
+    position: absolute;
+    height: 7vw;
+    width: 15vw;
+    margin-top: 4vh;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    z-index: 30;
+}
+
+.eye {
+    height: 65%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balls {
+    height: 40%;
+    width: 40%;
+    background-image: url("../../Assets/eye.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:1400px) {
+    .eyes {
+        margin-top: 10vh;
+    }
+    .eye {
+        height: 60%;
+        width: 60%;
+    }
+}
+@media (max-width:900px) {
+    .footer img{
+        width: 30vw;
+        height: 28vw;
+    }
+    .eyes {
+        margin-top: 20vh;
+    }
+}
+@media (max-width:750px) {
+    .footer span{
+        padding: 12px 1px;
+        font-size: 16px;
+     }
+     .footer .first {
+        padding: 12px 0px 12px 30px;
+     }
+     .footer .last{
+        padding: 12px 30px 12px 0px;
+     }
+     .footer img{
+        width: 35vw;
+        height: 40vw;
+    }
+    .eyes {
+        margin-top: 25vw;
+    }
+}
+@media (max-width:357px) {
+    .eyes {
+        margin-top:75vw
+    }
+}

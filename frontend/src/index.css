@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '../../frontend/src/Shares/main.css';
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+body{
+  min-height: 100vh;
+  margin: auto;
+  background-color: var(--light-color);
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
