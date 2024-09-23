@@ -41,34 +41,34 @@ const Home = () => {
 }
 
 function BgAnimation() {
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.pageYOffset;
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollPosition = window.pageYOffset;
 
-      // Adjust the speed and direction of each element based on scroll position
-      const planet1 = document.getElementById("planet-1");
-      const planet2 = document.getElementById("planet-2");
-      const planet3 = document.getElementById("planet-3");
+  //     // Adjust the speed and direction of each element based on scroll position
+  //     const planet1 = document.getElementById("planet-1");
+  //     const planet2 = document.getElementById("planet-2");
+  //     const planet3 = document.getElementById("planet-3");
 
-      if (planet1) {
-        planet1.style.transform = `translateX(${scrollPosition * -0.5}px)`; // Adjust speed as needed
-      }
-      if (planet2) {
-        planet2.style.transform = `translateX(${scrollPosition * -1.6}px)`; // Adjust speed as needed
-      }
-      if (planet3) {
-        planet3.style.transform = `translateX(${scrollPosition * 0.9}px)`; // Adjust speed as needed
-      }
-    };
+  //     if (planet1) {
+  //       planet1.style.transform = `translateX(${scrollPosition * -0.5}px)`; // Adjust speed as needed
+  //     }
+  //     if (planet2) {
+  //       planet2.style.transform = `translateX(${scrollPosition * -1.6}px)`; // Adjust speed as needed
+  //     }
+  //     if (planet3) {
+  //       planet3.style.transform = `translateX(${scrollPosition * 0.9}px)`; // Adjust speed as needed
+  //     }
+  //   };
 
-    // Attach scroll event listener
-    window.addEventListener("scroll", handleScroll);
+  //   // Attach scroll event listener
+  //   window.addEventListener("scroll", handleScroll);
 
-    // Cleanup on component unmount
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   // Cleanup on component unmount
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   return (
     <div className="parallax overflow-x-hidden">
@@ -90,7 +90,7 @@ function BgAnimation() {
         id="planet-2"
         className="w-[350px] left-[30px] top-80 planet-orbit2"
       />
-      <div className="flex w-full h-screen items-center justify-center absolute z-10">
+      <div className="flex w-full h-screen items-center justify-center absolute z-[2000]">
         <p className="text-white font-bold text-3xl md:text-6xl ">
           EXOPLANETS WORLD
         </p>
