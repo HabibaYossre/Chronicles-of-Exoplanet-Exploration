@@ -1,9 +1,13 @@
-import React from 'react'
-import './Cards.css'
-const srcee = 'https://media.contentapi.ea.com/content/dam/eacom/images/2020/09/ea-featured-image-ea-desktop-beta.jpg.adapt.crop191x100.1200w.jpg'
-function Cards() {
+import React, { useEffect, useState } from "react";
+import "./Cards.css";
+const baseUrl = "http://localhost:3000/uploads";
+const srcee = `${baseUrl}/14_Her_b.jpg`;
+function Cards({ cardsList }) {
   return (
-    <div className={"card"} style={{ backgroundImage: `url(${srcee})` }}>
+    <div
+      className={"card"}
+      style={{ backgroundImage: `url(${cardsList.img})` }}
+    >
       <div className="card-content">
         <h2 className="card-title">Something Awesome</h2>
         <p className="card-body">
@@ -18,4 +22,4 @@ function Cards() {
   );
 }
 
-export default Cards
+export default Cards;

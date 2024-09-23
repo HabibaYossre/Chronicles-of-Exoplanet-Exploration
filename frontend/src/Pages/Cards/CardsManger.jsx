@@ -1,6 +1,21 @@
-import React from 'react'
-import './Cards.css'
-import Cards from './Cards'
+import React from "react";
+import "./Cards.css";
+import Cards from "./Cards";
+
+fetch("http://localhost:3000/planets").then();
+const baseUrl = "http://localhost:3000/uploads";
+const srcee = `${baseUrl}/14_Her_b.jpg`;
+const list = [
+  { img: `${baseUrl}/14_Her_b.jpg` },
+  { img: `${baseUrl}/70_Vir_b.jpg` },
+  { img: `${baseUrl}/1.png` },
+  { img: `${baseUrl}/14_Her_b.jpg` },
+  { img: `${baseUrl}/70_Vir_b.jpg` },
+  { img: `${baseUrl}/1.png` },
+  { img: `${baseUrl}/14_Her_b.jpg` },
+  { img: `${baseUrl}/70_Vir_b.jpg` },
+  { img: `${baseUrl}/1.png` },
+];
 function CardsManger() {
   return (
     <div className="flex justify-center">
@@ -25,6 +40,10 @@ function CardsManger() {
         Your browser does not support the video tag.
       </video>
       <div className="container">
+        {list.map((item) => (
+          <Cards key={item.img} cardsList={item} />
+        ))}
+        {/* <Cards />
         <Cards />
         <Cards />
         <Cards />
@@ -32,11 +51,10 @@ function CardsManger() {
         <Cards />
         <Cards />
         <Cards />
-        <Cards />
-        <Cards />
+        <Cards /> */}
       </div>
     </div>
   );
 }
 
-export default CardsManger
+export default CardsManger;
