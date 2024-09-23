@@ -8,6 +8,7 @@ import cors from "cors";
 import connectDB from "./src/DB/config.js";
 import errorHandler from "./src/middlewares/errors/errorHandler.js";
 import notFoundHandler from "./src/middlewares/errors/notFoundHandler.js";
+import planetRoutes from "./src/routes/planet.js";
 
 // Load environment variables from .env file
 dotenv.config();
@@ -32,6 +33,12 @@ app.use(ExpressMongoSanitize());
 
 // Data sanitization against XSS
 app.use(xss());
+
+// make the uploads folder static
+app.use(express.static("public/uploads"));
+
+// Mount the planet routes
+app.use(`${process.env.BASE_URL}/planets`, planetRoutes);
 
 app.use(errorHandler);
 app.use(notFoundHandler);
