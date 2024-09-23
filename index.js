@@ -23,7 +23,7 @@ app.use(cors());
 app.use(express.json());
 
 // Set security HTTP headers
-app.use(helmet());
+// app.use(helmet());
 
 // Enable CSRF protection
 // app.use(csurf({ cookie: true }));
@@ -35,11 +35,7 @@ app.use(ExpressMongoSanitize());
 app.use(xss());
 
 // make the uploads folder static
-app.use(express.static("public/uploads", {
-    setHeaders: (res) => {
-        res.set('Access-Control-Allow-Origin', '*');
-    }
-}));
+app.use("/uploads", express.static("public/uploads"));
 
 // Mount the planet routes
 app.use(`${process.env.BASE_URL}/planets`, planetRoutes);
