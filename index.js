@@ -35,7 +35,11 @@ app.use(ExpressMongoSanitize());
 app.use(xss());
 
 // make the uploads folder static
-app.use(express.static("public/uploads"));
+app.use(express.static("public/uploads", {
+    setHeaders: (res) => {
+        res.set('Access-Control-Allow-Origin', '*');
+    }
+}));
 
 // Mount the planet routes
 app.use(`${process.env.BASE_URL}/planets`, planetRoutes);
