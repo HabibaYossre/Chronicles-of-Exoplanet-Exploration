@@ -8,11 +8,11 @@ const Home = () => {
   return (
     <>
     <Navbar/>
-    <BgAnimation/>
       {/* <div className="flex w-full h-screen items-center justify-center absolute z-10">
         <p className="text-white font-bold text-3xl md:text-6xl">EXOPLANETS WORLD</p>
-      </div> */}
+        </div> */}
       <div style={{ position: "relative", overflow: "hidden" }}>
+        <BgAnimation/>
         <video
           autoPlay
           loop
@@ -71,12 +71,12 @@ function BgAnimation() {
   }, []);
 
   return (
-    <div className="parallax overflow-hidden">
+    <div className="parallax overflow-x-hidden">
       <img
         src={require("../../Assets/HomePlanets/1.png")}
         alt=""
         id="planet-1"
-        className="w-[120px] left-12 top-28 -z-30"
+        className="w-[120px] left-12 top-28 -z-30 planet-orbit3"
       />
       <img
         src={require("../../Assets/HomePlanets/ast.png")}
@@ -88,7 +88,7 @@ function BgAnimation() {
         src={require("../../Assets/HomePlanets/2.png")}
         alt=""
         id="planet-2"
-        className="w-[350px] left-[30px] top-80"
+        className="w-[350px] left-[30px] top-80 planet-orbit2"
       />
       <div className="flex w-full h-screen items-center justify-center absolute z-10">
         <p className="text-white font-bold text-3xl md:text-6xl ">
@@ -99,7 +99,7 @@ function BgAnimation() {
         src={require("../../Assets/HomePlanets/3.png")}
         alt=""
         id="planet-3"
-        className="w-[150px] end-[30px] top-1/2 "
+        className="w-[150px] end-[30px] top-1/2 planet-orbit1"
       />
     </div>
   );
