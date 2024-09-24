@@ -80,3 +80,30 @@ export const getPlanetByName = async (req, res, next) => {
         next(error);
     }
 }
+
+// controller to get planets by type
+export const getPlanetsByType = async (req, res, next) => {
+    try {
+
+        // get the type from the request
+        const { planet_type } = req.params;
+
+        // check if the type is provided
+        if (!planet_type) {
+            throw createCustomError("Please provide planet type!", 400, null);
+        }
+
+        // get planets by type
+        const planets = await planetService.getPlanetsByType(planet_type);
+
+        return res.status(200).json({
+            message: "Success",
+            body: planets,
+            status: 200
+        });
+
+    } catch (error) {
+        next(error);
+    }
+}
+

@@ -41,3 +41,17 @@ export const getPlanetByName = async (name) => {
 
     return planet;
 };
+
+// service to get all planets given a planet type
+export const getPlanetsByType = async (planet_type) => {
+
+    // get the planets by type
+    const planets = await Planet.find({ planet_type }, { _id: false, __v: false });
+
+    // check if the planets exist
+    if (!planets) {
+        throw createCustomError("No planets found!", 404, null);
+    }
+
+    return planets;
+};

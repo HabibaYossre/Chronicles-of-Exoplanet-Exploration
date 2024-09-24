@@ -10,6 +10,9 @@ router.get("/", planetController.getAllPlanets);
 router.post("/", planetController.addPlanet);
 
 // route to get planet by name
-router.get("/:name", planetController.getPlanetByName);
+router.get("/name/:name", planetController.getPlanetByName);
+
+// route to get all planets given a planet type
+router.get("/type/:planet_type", planetController.getPlanetsByType);
 
 export default router;
