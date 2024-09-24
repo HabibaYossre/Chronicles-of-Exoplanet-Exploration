@@ -5,6 +5,7 @@ import Navbar from '../../Components/Navbar/Navbar';
 import Slides from '../../Components/Slides/Slides';
 import { Button } from '@mui/material';
 import Information from '../../Components/Information/Information';
+import { assets } from '../../Assets/assets';
 
 const Home = () => {
   return (
@@ -39,7 +40,9 @@ const Home = () => {
       <GoToPersonalCheck />
       {/* <Slides /> */}
       <Information/>
+      <Break/>
       <Footer />
+      
     </div>
   );
 }
@@ -105,6 +108,17 @@ function BgAnimation() {
         id="planet-3"
         className="w-[150px] end-[30px] top-1/2 planet-orbit1 hidden md:block"
       />
+    </div>
+  );
+}
+
+function Break(){
+  return (
+    <div className="break-gif">
+      <div className="break-overlay">
+
+      </div>
+        {/* <img src={assets.gif} draggable='false'/> */}
     </div>
   );
 }

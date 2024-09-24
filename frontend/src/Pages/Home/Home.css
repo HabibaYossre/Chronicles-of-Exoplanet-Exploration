@@ -22,6 +22,30 @@
 .ast{
     animation: astKey 30s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
+/* .break-gif{
+  width: 100vw;
+  height: 200px;
+  background-color: yellow;
+}
+.break-gif img{
+  width: 100%;
+  height: 100%;
+} */
+.break-gif {
+  width: 100%;
+  height: 200px;
+  background-image: url(../../Assets/videos/home3.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  position:relative;
+}
+
+.break-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+}
 @keyframes astKey {
   0% {
     transform: translateX(5px) translateY(0); /* Starting position */
