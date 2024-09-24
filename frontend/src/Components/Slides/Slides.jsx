@@ -1,68 +1,161 @@
-// import React, { useEffect, useRef } from 'react'
-// import '../Slides/Slides.css'
-// import gsap from 'gsap';
-// import ScrollTrigger from 'gsap/ScrollTrigger';
-// gsap.registerPlugin(ScrollTrigger);
-// const Slides = () => {
-//     const slidesRef = useRef([]);
-//   const scrollerRef = useRef(null);
-//   const scrollTriggerRef = useRef(null);
+import React, { useState, useEffect, useRef } from "react";
+import "./Slides.css";
+import GifIcon from "../GifIcon";
+import { useNavigate } from "react-router-dom";
+import { CircularProgress } from "@mui/material";
+const baseUrl = "https://nasa-space-apps-2024.onrender.com/api/v1";
 
-//   useEffect(() => {
-//     const slides = slidesRef.current;
-//     const isMobile = window.innerWidth <= 768;
-
-//     slides.forEach((slide, i) => {
-//       const angle = isMobile ? i * 10 : (i * 10) - 10;
-//       gsap.to(slide, { rotation: angle, transformOrigin: "0% 2300px" });
-//     });
-
-//     const speed = isMobile ? 30 : 30; // Faster speed on mobile
-
-//     const scrollTrigger = ScrollTrigger.create({
-//       trigger: scrollerRef.current,
-//       start: "top top",
-//       end: "bottom bottom",
-//       onUpdate: (self) => {
-//         gsap.to(slides, {
-//           rotation: (i) => {
-//             const baseAngle = isMobile ? i * 10 : (i * 10) - 10;
-//             return baseAngle - self.progress * speed;
-//           },
-//         });
-//       },
-//     });
-//     scrollTriggerRef.current = scrollTrigger;
-//    // Cleanup function to remove ScrollTrigger on unmount
-//    return () => {
-//     if (scrollTriggerRef.current) {
-//       scrollTriggerRef.current.kill();
-//     }
-//   };
-//   }, []);
-
-//   return (
-//     <div ref={scrollerRef} className="scroller">
-//     {Array(10) // Adjust this to the number of slides
-//       .fill(null)
-//       .map((_, i) => (
-//         <div ref={(el) => (slidesRef.current[i] = el)} key={i} className="slide">
-//           <h2>Slide {i + 1}</h2>
-//           <p>This is the content for slide {i + 1}.</p>
-//           <img src={`planet${i + 1}.jpg`} alt={`Slide ${i + 1}`} />
-//         </div>
-//       ))}
-//   </div>
-//   )
-// }
-
-// export default Slides
-import React from 'react'
-
-const Slides = () => {
+// SliderItem Component
+function SliderItem({
+  name,
+  planet_mass,
+  planet_radius,
+  planet_discovery_method,
+  discovery_date,
+  onSeeMore,
+}) {
   return (
-    <div></div>
-  )
+    <div className="item">
+      <img
+        src={`${baseUrl}/uploads/${name}.jpg`}
+        alt={name}
+        className="no-bg"
+      />
+      <div className="introduce">
+        <div className="title text-white py-3 pb-7 text-4xl md:text-6xl">{name}</div>
+        <div className="des">
+          <p>Mass: {planet_mass}</p>
+          <p>Radius: {planet_radius}</p>
+          <p>Discovery Date: {discovery_date}</p>
+        </div>
+      </div>
+      <button className="seeMore" onClick={onSeeMore}>
+        See More
+      </button>
+    </div>
+  );
 }
 
-export default Slides
+// Carousel Component
+function Slides() {
+  const navigate = useNavigate()
+  const [items, setItems] = useState([]);
+  const [showDetail, setShowDetail] = useState(false);
+  const [sliderClass, setSliderClass] = useState(""); // to manage next/prev animations
+  const nextButtonRef = useRef(null);
+  const prevButtonRef = useRef(null);
+  const carouselRef = useRef(null);
+  const listRef = useRef(null); // Reference for the list of items
+  let unAcceptClick;
+
+  useEffect(() => {
+    const pageNumber = Math.floor(Math.random() * 6) + 1;
+
+    const fetchData = async () => {
+      try {
+        const response = await fetch(
+          `https://nasa-space-apps-2024.onrender.com/api/v1/planets?limit=6&page=${pageNumber}`
+        );
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        setItems(data.body.planets); 
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const showSlider = (type) => {
+    if (nextButtonRef.current && prevButtonRef.current) {
+      nextButtonRef.current.style.pointerEvents = "none";
+      prevButtonRef.current.style.pointerEvents = "none";
+
+      setSliderClass(type); // Add animation class
+
+      setItems((prevItems) => {
+        if (type === "next") {
+          const [firstItem, ...rest] = prevItems;
+          return [...rest, firstItem];
+        } else {
+          const lastItem = prevItems[prevItems.length - 1];
+          const rest = prevItems.slice(0, -1);
+          return [lastItem, ...rest];
+        }
+      });
+
+      clearTimeout(unAcceptClick);
+      unAcceptClick = setTimeout(() => {
+        nextButtonRef.current.style.pointerEvents = "auto";
+        prevButtonRef.current.style.pointerEvents = "auto";
+        setSliderClass(""); // Reset animation class after timeout
+      }, 600);
+    }
+  };
+
+  const handleSeeMore = () => {
+    setShowDetail(true);
+    setSliderClass("showDetail"); 
+  };
+
+  const handleBack = () => {
+    setShowDetail(false);
+    setSliderClass(""); 
+  };
+
+  return items ? (
+    <div className={`carousel ${sliderClass}`} ref={carouselRef}>
+      <div className="list" ref={listRef}>
+        {items.map((item, index) => (
+          <SliderItem key={index} {...item} onSeeMore={handleSeeMore} />
+        ))}
+      </div>
+      <div className="arrows text-white">
+        <div
+          ref={prevButtonRef}
+          className="-scale-100"
+          onClick={() => showSlider("prev")}
+        >
+          <GifIcon
+            src={require("../../Assets/GIF/fast-forward.gif")}
+            alt="My GIF icon"
+            size="64px"
+          />
+        </div>
+        <div id="back" className="" onClick={() => navigate("/cards")}>
+          <GifIcon
+            src={require("../../Assets/GIF/wired-flat-49-plus-circle-hover-rotation.gif")}
+            alt="My GIF icon"
+            size="64px"
+          />
+        </div>
+
+        <div ref={nextButtonRef} onClick={() => showSlider("next")}>
+          <GifIcon
+            src={require("../../Assets/GIF/fast-forward.gif")}
+            alt="My GIF icon"
+            size="64px"
+          />
+        </div>
+
+      </div>
+
+      {showDetail && (
+        <div className="showDetail">
+          {/* Additional details can be displayed here */}
+        </div>
+      )}
+    </div>
+  ) : (
+    <div className="bg-black h-screen flex justify-center items-center z-[10000] ">
+      <CircularProgress />
+    </div>
+  );
+}
+
+export default Slides;

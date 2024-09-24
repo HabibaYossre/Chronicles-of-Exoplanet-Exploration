@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
      
       <div style={{ position: "relative", overflow: "hidden" }}>
-        <video
+        {/* <video
           autoPlay
           loop
           muted
@@ -64,7 +64,7 @@ const Footer = () => {
             type="video/mp4"
           />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
       </div>
       <div className='cursor'ref={circleRef} ></div>
     </div>
