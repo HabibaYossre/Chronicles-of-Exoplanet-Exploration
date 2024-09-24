@@ -13,11 +13,14 @@ export const getAllPlanets = async (req, res, next) => {
         const limit = parseInt(req.query.limit);
 
         // calculate the number of documents to skip
-        const planets = await planetService.getAllPlanets(page, limit);
+        const [planets, totalPlanets] = await planetService.getAllPlanets(page, limit);
 
         return res.status(200).json({
             message: "Success",
-            body: planets,
+            body: {
+                planets,
+                totalPlanets
+            },
             status: 200
         });
 

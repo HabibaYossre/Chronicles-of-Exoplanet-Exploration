@@ -15,7 +15,10 @@ export const getAllPlanets = async (page, limit) => {
     // get the planets from the database
     const planets = await Planet.find({}, { _id: false, __v: false }).skip(offset).limit(limit);
 
-    return planets;
+    // get the total number of planets
+    const totalPlanets = await Planet.countDocuments();
+
+    return [planets, totalPlanets];
 };
 
 // service to add planets to the database
