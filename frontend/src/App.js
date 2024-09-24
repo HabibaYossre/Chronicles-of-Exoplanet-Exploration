@@ -7,6 +7,7 @@ const LazyPageNotFound = lazy(() =>
   import("./Pages/PageNotFound/PageNotFound")
 );
 const LazyHome = lazy(() => import("./Pages/Home/Home"));
+const LazyThankYou = lazy(() => import("./Pages/ThankYou/ThankYou"));
 
 function App() {
   return (
@@ -29,6 +30,16 @@ function App() {
               fallback={<div className="bg-black h-screen">Loading...</div>}
             >
               <LazyPageNotFound />
+            </Suspense>
+          }
+        />
+         <Route
+          path="/thank_you"
+          element={
+            <Suspense
+              fallback={<div className="bg-black h-screen">Loading...</div>}
+            >
+              <LazyThankYou />
             </Suspense>
           }
         />

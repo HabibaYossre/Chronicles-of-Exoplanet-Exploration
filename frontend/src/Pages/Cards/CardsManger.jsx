@@ -1,6 +1,7 @@
 import React from "react";
 import "./Cards.css";
 import Cards from "./Cards";
+import Navbar from "../../Components/Navbar/Navbar";
 
 fetch("http://localhost:3000/planets").then();
 const baseUrl = "http://localhost:3000/uploads";
@@ -18,7 +19,9 @@ const list = [
 ];
 function CardsManger() {
   return (
-    <div className="flex justify-center">
+    <>
+      <Navbar />
+      <div className="flex justify-center">
       <video
         autoPlay
         loop
@@ -54,6 +57,8 @@ function CardsManger() {
         <Cards /> */}
       </div>
     </div>
+    </>
+
   );
 }
 

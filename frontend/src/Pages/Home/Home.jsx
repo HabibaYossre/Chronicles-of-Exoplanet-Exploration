@@ -4,6 +4,7 @@ import Footer from '../../Components/Footer/Footer';
 import Navbar from '../../Components/Navbar/Navbar';
 import Slides from '../../Components/Slides/Slides';
 import { Button } from '@mui/material';
+import Information from '../../Components/Information/Information';
 
 const Home = () => {
   return (
@@ -23,7 +24,7 @@ const Home = () => {
             top: 0,
             left: 0,
             width: "100%",
-            height: "100vh",
+            minHeight: "100vh",
             objectFit: "cover",
             zIndex: -1000,
           }}
@@ -36,7 +37,8 @@ const Home = () => {
         </video>
       </div>
       <GoToPersonalCheck />
-      <Slides />
+      {/* <Slides /> */}
+      <Information/>
       <Footer />
     </div>
   );

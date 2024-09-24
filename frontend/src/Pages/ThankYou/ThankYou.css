@@ -1,0 +1,147 @@
+@import '../../Shares/main.css';
+.thankyou{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-color:#000000;
+}
+.return{
+    position: absolute;
+    z-index: 300;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    margin-top: 30px;
+}
+.thankyou-content{
+    position: absolute;
+    z-index: 300;
+    top: 40vh;
+    width: 50%;
+    left: 5%;
+}
+.earth-img1{
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Assets/earth.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-basis: 20%;
+}
+.earth-img2{
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Assets/earth2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-basis: 20%;
+}
+.return h3{
+    flex-basis: 60%;
+    font-size: 32px;
+    text-align: center;
+    align-self: center;
+    font-weight: 700;
+    color: var(--light-color);
+}
+.thankyou-title{
+    color: var(--light-color);
+    font-size: 22px;
+    font-weight: 500;
+}
+.thankyou-description{
+    color: #ded9d9;;
+    font-size: 18px;
+    margin: 30px 0px;
+}
+.thankyou-comment{
+    color:#ded9d9;
+    font-size: 18px;
+    margin-bottom:60px ;
+}
+.thankyou-content textarea{
+    width: 50%;
+    min-height: 20vh;
+    padding: 10px;
+    border-radius:10px ;
+}
+.thankyou-img{
+    margin: auto;
+    margin-top:40px ;
+    width: 500px;
+    height: 500px;
+    border-radius:50% ;
+}
+.thankyou-footer{
+    width: 100%;
+    min-height: 10vh;
+}
+@media (max-width:1400px) {
+    .thankyou-content{
+        width: 80%;
+    }
+}
+
+@media (max-width:900px) {
+    .return h3{
+        font-size: 28px;
+    }
+    .thankyou-title{
+        font-size: 20px;
+    }
+    .thankyou-description{
+        font-size: 16px;
+    }
+    .thankyou-comment{
+        font-size: 16px;
+    }
+    .thankyou-content textarea{
+        width: 70%;
+        min-height: 20vh;
+        padding: 10px;
+        border-radius:10px ;
+    }
+    .thankyou-img{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width:750px) {
+    .return h3{
+        font-size: 26px;
+    }
+    .thankyou-title{
+        font-size: 18px;
+    }
+    .thankyou-description{
+        font-size: 14px;
+    }
+    .thankyou-comment{
+        font-size: 14px;
+    }
+    .thankyou-content textarea{
+        width: 85%;
+        min-height: 15vh;
+    }
+}
+@media (max-width:357px) {
+    .return h3{
+        font-size: 24px;
+    }
+    .thankyou-title{
+        font-size: 16px;
+    }
+    .thankyou-description{
+        font-size: 12px;
+    }
+    .thankyou-comment{
+        font-size: 12px;
+    }
+    .thankyou-img{
+        width: 120px;
+        height: 120px;
+    }
+}

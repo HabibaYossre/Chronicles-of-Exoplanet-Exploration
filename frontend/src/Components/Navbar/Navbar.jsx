@@ -19,8 +19,8 @@ const Navbar = () => {
         <NavLink to="/chat" style={activeStyle}>
           Chatbot
         </NavLink>
-        <NavLink to="/game" style={activeStyle}>
-          Game
+        <NavLink to="/Personality_test" style={activeStyle}>
+          Personality Test
         </NavLink>
         <button onClick={() => navigate("/cards")}>Discover Exoplanets</button>
       </div>

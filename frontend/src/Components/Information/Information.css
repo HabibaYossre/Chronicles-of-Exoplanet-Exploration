@@ -1,0 +1,118 @@
+@import '../../Shares/main.css';
+.information{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+}
+.information h2{
+    color: var(--light-color);
+    font-size: 36px;
+    position: absolute;
+    font-weight: 700;
+    width: 100vw;
+    text-align: center;
+    top: 30px;
+}
+.info-content1 , .info-content2{
+    position: absolute;
+    z-index: 400;
+    display: flex;
+    top :20vh;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.info-content1 img {
+    width: 50vw;
+    height: 100%;
+}
+.info-content2 img{
+    width: 60vw;
+    height: 100%;
+}
+.info-content2{
+    top :70vh;
+}
+.info-content1 p , .info-content2 p{
+    color: var(--light-color);
+    font-size: 16px;
+    margin:100px ;
+}
+.info-content2 p{
+    margin-right: 100px;
+}
+
+@media (max-width:900px) {
+    .information h2{
+        font-size: 32px;
+    }
+    .info-content1 , .info-content2{
+        width: 90%;
+    }
+    .info-content1 img {
+        width: 60vw;
+        height: 90%;
+    }
+    .info-content2 img{
+        width: 70vw;
+        height: 90%;
+    }
+    .info-content1 p , .info-content2 p{
+        font-size: 14px;
+        margin:80px ;
+    }
+    .info-content2 p{
+        margin-right: 80px;
+    }
+    
+}
+@media (max-width:750px) {
+    .information h2{
+        font-size: 28px;
+    }
+    .info-content1 , .info-content2{
+        width: 95%;
+    }
+    .info-content2{
+        top :55vh;
+    }
+    .info-content1 img {
+        width: 70vw;
+        height: 70%;
+    }
+    .info-content2 img{
+        width: 80vw;
+        height: 80%;
+    }
+    .info-content1 p , .info-content2 p{
+        font-size: 12px;
+        margin:50px ;
+    }
+    .info-content2 p{
+        margin-right: 50px;
+    }
+}
+@media (max-width:375px) {
+    .information h2{
+        font-size: 24px;
+    }
+    .info-content1 , .info-content2{
+        width: 98%;
+    }
+    .info-content1 img {
+        width: 80vw;
+        height: 80%;
+    }
+    .info-content2 img{
+        width: 90vw;
+        height: 100%;
+    }
+    .info-content1 p , .info-content2 p{
+        font-size: 10px;
+        margin:30px ;
+    }
+    .info-content2 p{
+        margin-right: 30px;
+    }
+}
