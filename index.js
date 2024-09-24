@@ -16,19 +16,8 @@ dotenv.config();
 // Create a new express application
 const app = express();
 
-const allowedOrigins = [process.env.CLIENT_URL];
-
-const corsOptions = {
-    origin: function (origin, callback) {
-        if (allowedOrigins.includes(origin) || !origin) {
-            callback(null, true);
-        } else {
-            callback(new Error("Not allowed by CORS"));
-        }
-    },
-};
-
-app.use(cors(corsOptions));
+// Enable CORS for all requests (for now)
+app.use(cors());
 
 // The request handler must be the first middleware on the app
 app.use(express.json());
