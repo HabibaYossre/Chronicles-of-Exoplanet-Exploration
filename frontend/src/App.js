@@ -8,7 +8,7 @@ const LazyPageNotFound = lazy(() =>
 );
 const LazyHome = lazy(() => import("./Pages/Home/Home"));
 const LazyThankYou = lazy(() => import("./Pages/ThankYou/ThankYou"));
-
+const LazyPersonalCheck = lazy(()=>import('./Pages/PersonalCheck/PersonalCheck'))
 function App() {
   return (
     <div className="App">
@@ -33,7 +33,7 @@ function App() {
             </Suspense>
           }
         />
-         <Route
+        <Route
           path="/thank_you"
           element={
             <Suspense
@@ -50,6 +50,16 @@ function App() {
               fallback={<div className="bg-black h-screen">Loading...</div>}
             >
               <LazyCardsManger />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/Personality_test"
+          element={
+            <Suspense
+              fallback={<div className="bg-black h-screen">Loading...</div>}
+            >
+              <LazyPersonalCheck />
             </Suspense>
           }
         />
