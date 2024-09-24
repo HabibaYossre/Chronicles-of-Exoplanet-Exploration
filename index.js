@@ -9,6 +9,7 @@ import connectDB from "./src/DB/config.js";
 import errorHandler from "./src/middlewares/errors/errorHandler.js";
 import notFoundHandler from "./src/middlewares/errors/notFoundHandler.js";
 import planetRoutes from "./src/routes/planet.js";
+import commentRoutes from "./src/routes/comment.js";
 
 // Load environment variables from .env file
 dotenv.config();
@@ -37,8 +38,9 @@ app.use(xss());
 // make the uploads folder static
 app.use(`${process.env.BASE_URL}/uploads`, express.static("public/uploads"));
 
-// Mount the planet routes
+// routes
 app.use(`${process.env.BASE_URL}/planets`, planetRoutes);
+app.use(`${process.env.BASE_URL}/comments`, commentRoutes);
 
 app.use(errorHandler);
 app.use(notFoundHandler);
