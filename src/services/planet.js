@@ -13,7 +13,7 @@ export const getAllPlanets = async (page, limit) => {
     const offset = (page - 1) * limit;
 
     // get the planets from the database
-    const planets = await Planet.find().skip(offset).limit(limit);
+    const planets = await Planet.find({}, { _id: false, __v: false }).skip(offset).limit(limit);
 
     return planets;
 };
@@ -29,7 +29,7 @@ export const addPlanets = async (planetData) => {
 export const getPlanetByName = async (name) => {
 
     // get the planet by name
-    const planet = await Planet.findOne({ name });
+    const planet = await Planet.findOne({ name }, { _id: false, __v: false });
 
     // check if the planet exists
     if (!planet) {
