@@ -27,11 +27,11 @@ const planetSchema = new mongoose.Schema({
         required: true,
     },
     discovery_date: {
-        type: Number,
+        type: String,
         required: true,
     },
     planet_type: {
-        type: Number,
+        type: String,
         required: true,
     }
 });

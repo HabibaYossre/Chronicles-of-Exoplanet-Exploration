@@ -1,0 +1,80 @@
+name,planet_mass,planet_radius,planet_discovery_method,discovery_date,planet_type,URL
+BD+20_2457_c,12.47 Jupiters,1.1 x Jupiter,Radial Velocity,2009,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/BD+20_2457_c
+CoRoT-7_c,8.4 Earths,0.253 x Jupiter,Radial Velocity,2009,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/CoRoT-7_c
+GJ_1132_b,1.66 Earths,1.13 x Earth,Transit,2015,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/GJ_1132_b
+GJ_1214_b,6.26125 Earths,0.254 x Jupiter,Transit,2009,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/GJ_1214_b
+GJ_3021_b,3.37 Jupiters,1.17 x Jupiter,Radial Velocity,2000,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/GJ_3021_b
+GJ_357_d,6.1 Earths,0.209 x Jupiter,Radial Velocity,2019,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/GJ_357_d
+GJ_436_b,22.1 Earths,0.372 x Jupiter,Radial Velocity,2004,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/GJ_436_b
+GJ_504_b,4 Jupiters,1.16 x Jupiter,Imaging,2013,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/GJ_504_b
+GJ_581_b,15.8 Earths,0.366 x Jupiter,Radial Velocity,2005,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/GJ_581_b
+GJ_581_c,5.5 Earths,2.21 x Earth,Radial Velocity,2007,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/GJ_581_c
+GJ_581_e,1.7 Earths,1.17 x Earth,Radial Velocity,2009,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/GJ_581_e
+GJ_667_C_b,5.6 Earths,2.23 x Earth,Radial Velocity,2011,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/GJ_667_C_b
+GJ_667_C_c,3.8 Earths,1.77 x Earth,Radial Velocity,2011,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/GJ_667_C_c
+GJ_832_c,5.4 Earths,2.18 x Earth,Radial Velocity,2014,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/GJ_832_c
+GJ_86_b,4.42 Jupiters,1.15 x Jupiter,Radial Velocity,1999,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/GJ_86_b
+GJ_876_b,2.2756 Jupiters,1.19 x Jupiter,Radial Velocity,1998,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/GJ_876_b
+GJ_876_d,6.83 Earths,0.224 x Jupiter,Radial Velocity,2005,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/GJ_876_d
+GJ_876_e,14.6 Earths,0.35 x Jupiter,Radial Velocity,2010,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/GJ_876_e
+HAT-P-1_b,0.525 Jupiters,1.319 x Jupiter,Transit,2006,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HAT-P-1_b
+HAT-P-28_b,0.626 Jupiters,1.212 x Jupiter,Transit,2011,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HAT-P-28_b
+HAT-P-29_b,0.88 Jupiters,1.17 x Jupiter,Transit,2011,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HAT-P-29_b
+HD_10180_f,22.94733 Earths,0.456 x Jupiter,Radial Velocity,2010,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/HD_10180_f
+HD_125612_b,3.1 Jupiters,1.17 x Jupiter,Radial Velocity,2007,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_125612_b
+HD_147018_b,2.12 Jupiters,1.19 x Jupiter,Radial Velocity,2009,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_147018_b
+HD_147018_c,6.56 Jupiters,1.13 x Jupiter,Radial Velocity,2009,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_147018_c
+HD_149026_b,0.38 Jupiters,0.74 x Jupiter,Radial Velocity,2005,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_149026_b
+HD_171028_b,2.62 Jupiters,1.18 x Jupiter,Radial Velocity,2007,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_171028_b
+HD_17156_b,3.51 Jupiters,1.1 x Jupiter,Radial Velocity,2007,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_17156_b
+HD_189733_b,1.13 Jupiters,1.13 x Jupiter,Radial Velocity,2005,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_189733_b
+HD_209458_b,0.73 Jupiters,1.39 x Jupiter,Radial Velocity,1999,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_209458_b
+HD_215497_b,6.3566 Earths,0.214 x Jupiter,Radial Velocity,2009,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/HD_215497_b
+HD_240210_b,5.21 Jupiters,1.14 x Jupiter,Radial Velocity,2009,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_240210_b
+HD_28185_b,5.9 Jupiters,1.14 x Jupiter,Radial Velocity,2001,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_28185_b
+HD_33283_b,0.329 Jupiters,1.12 x Jupiter,Radial Velocity,2006,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_33283_b
+HD_37605_b,2.69 Jupiters,1.18 x Jupiter,Radial Velocity,2004,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_37605_b
+HD_37605_c,3.19 Jupiters,1.17 x Jupiter,Radial Velocity,2012,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_37605_c
+HD_38529_b,0.797 Jupiters,1.24 x Jupiter,Radial Velocity,2000,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_38529_b
+HD_4113_b,1.56 Jupiters,1.21 x Jupiter,Radial Velocity,2007,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_4113_b
+HD_4308_b,15.8915 Earths,0.368 x Jupiter,Radial Velocity,2005,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/HD_4308_b
+HD_69830_b,10.2 Earths,0.283 x Jupiter,Radial Velocity,2006,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/HD_69830_b
+HD_69830_c,11.8 Earths,0.309 x Jupiter,Radial Velocity,2006,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/HD_69830_c
+HD_70642_b,1.993 Jupiters,1.19 x Jupiter,Radial Velocity,2003,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_70642_b
+HD_81688_b,2.7 Jupiters,1.18 x Jupiter,Radial Velocity,2007,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_81688_b
+HD_85512_b,3.1783 Earths,1.6 x Earth,Radial Velocity,2011,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/HD_85512_b
+HD_99109_b,0.44 Jupiters,1.28 x Jupiter,Radial Velocity,2005,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HD_99109_b
+HR_8799_e,10 Jupiters,1.17 x Jupiter,Imaging,2010,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/HR_8799_e
+KELT-9_b,2.88 Jupiters,1.891 x Jupiter,Transit,2017,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/KELT-9_b
+Kepler-1638_b,4.16 Earths,1.87 x Earth,Transit,2016,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/Kepler-1638_b
+Kepler-1649_c,1.2 Earths,1.06 x Earth,Transit,2020,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/Kepler-1649_c
+Kepler-16_b,0.333 Jupiters,0.754 x Jupiter,Transit,2011,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/Kepler-16_b
+Kepler-186_d,2.54 Earths,1.4 x Earth,Transit,2014,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/Kepler-186_d
+Kepler-186_f,1.71 Earths,1.17 x Earth,Transit,2014,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/Kepler-186_f
+Kepler-22_b,36 Earths,0.212 x Jupiter,Transit,2011,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/Kepler-22_b
+Kepler-283_c,3.97 Earths,1.82 x Earth,Transit,2014,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/Kepler-283_c
+Kepler-37_b,3.1783 Earths,0.336 x Earth,Transit,2013,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/Kepler-37_b
+Kepler-419_c,7.3 Jupiters,1.13 x Jupiter,Transit,2014,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/Kepler-419_c
+Kepler-452_b,3.29 Earths,1.63 x Earth,Transit,2015,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/Kepler-452_b
+Kepler-62_e,36 Earths,1.61 x Earth,Transit,2013,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/Kepler-62_e
+Kepler-62_f,35 Earths,1.41 x Earth,Transit,2013,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/Kepler-62_f
+Kepler-69_b,5.65 Earths,0.2 x Jupiter,Transit,2013,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/Kepler-69_b
+Kepler-69_c,3.57 Earths,1.71 x Earth,Transit,2013,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/Kepler-69_c
+KOI-55_b,0.44 Earths,0.759 x Earth,Orbital Brightness Modulation,2011,Terrestrial,https://eyes.nasa.gov/apps/exo/#/planet/KOI-55_b
+MOA-2011-BLG-322L_b,11.6 Jupiters,1.11 x Jupiter,Microlensing,2013,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/MOA-2011-BLG-322L_b
+NGTS-1_b,0.812 Jupiters,1.33 x Jupiter,Transit,2017,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/NGTS-1_b
+OGLE-2005-BLG-390L_b,5.5 Earths,2.21 x Earth,Microlensing,2005,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/OGLE-2005-BLG-390L_b
+OGLE-2007-BLG-368L_b,20 Earths,0.421 x Jupiter,Microlensing,2009,Neptune-like,https://eyes.nasa.gov/apps/exo/#/planet/OGLE-2007-BLG-368L_b
+PSR_B1257+12_b,0.02 Earths,0.338 x Earth,Pulsar Timing,1994,Terrestrial,https://eyes.nasa.gov/apps/exo/#/planet/PSR_B1257+12_b
+PSR_B1257+12_c,4.3 Earths,1.91 x Earth,Pulsar Timing,1992,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/PSR_B1257+12_c
+TOI-700_d,1.57 Earths,1.144 x Earth,Transit,2020,Super Earth,https://eyes.nasa.gov/apps/exo/#/planet/TOI-700_d
+TOI-849_b,39.09 Earths,0.307 x Jupiter,Transit,2020,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/TOI-849_b
+TRAPPIST-1_h,0.331 Earths,0.752 x Earth,Transit,2017,Terrestrial,https://eyes.nasa.gov/apps/exo/#/planet/TRAPPIST-1_h
+TYC_8998-760-1_b,14 Jupiters,1.1 x Jupiter,Imaging,2020,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/TYC_8998-760-1_b
+WASP-11_b,0.79 Jupiters,1.11 x Jupiter,Transit,2008,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/WASP-11_b
+WASP-12_b,1.465 Jupiters,1.937 x Jupiter,Transit,2008,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/WASP-12_b
+WASP-17_b,0.78 Jupiters,1.87 x Jupiter,Transit,2009,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/WASP-17_b
+WASP-31_b,0.478 Jupiters,1.549 x Jupiter,Transit,2010,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/WASP-31_b
+WASP-39_b,0.28 Jupiters,1.27 x Jupiter,Transit,2011,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/WASP-39_b
+WASP-6_b,0.37 Jupiters,1.03 x Jupiter,Transit,2009,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/WASP-6_b
+WASP-96_b,0.48 Jupiters,1.2 x Jupiter,Transit,2014,Gas Giant,https://eyes.nasa.gov/apps/exo/#/planet/WASP-96_b

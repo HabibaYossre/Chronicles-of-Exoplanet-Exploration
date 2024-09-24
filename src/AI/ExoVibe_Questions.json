@@ -1,0 +1,540 @@
+{
+    "questions": [
+        {
+            "feature": "light_years_from_earth",
+            "questions": [
+                {
+                    "text": "How do you feel about exploring distant places?",
+                    "options": [
+                        {
+                            "label": "Nearby",
+                            "value": "Nearby"
+                        },
+                        {
+                            "label": "Intermediate",
+                            "value": "Intermediate"
+                        },
+                        {
+                            "label": "Distant",
+                            "value": "Distant"
+                        }
+                    ]
+                },
+                {
+                    "text": "When traveling, do you enjoy quick trips or long adventures?",
+                    "options": [
+                        {
+                            "label": "Quick trips",
+                            "value": "Nearby"
+                        },
+                        {
+                            "label": "A mix of both",
+                            "value": "Intermediate"
+                        },
+                        {
+                            "label": "Long adventures are my favorite!",
+                            "value": "Distant"
+                        }
+                    ]
+                },
+                {
+                    "text": "What\u2019s your ideal travel time?",
+                    "options": [
+                        {
+                            "label": "A few hours",
+                            "value": "Nearby"
+                        },
+                        {
+                            "label": "A few days",
+                            "value": "Intermediate"
+                        },
+                        {
+                            "label": "A few weeks or more",
+                            "value": "Distant"
+                        }
+                    ]
+                },
+                {
+                    "text": "Do you prefer familiar places or new, unexplored territories?",
+                    "options": [
+                        {
+                            "label": "Familiar places",
+                            "value": "Nearby"
+                        },
+                        {
+                            "label": "A bit of both",
+                            "value": "Intermediate"
+                        },
+                        {
+                            "label": "New territories excite me!",
+                            "value": "Distant"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "feature": "planet_mass",
+            "questions": [
+                {
+                    "text": "How do you approach challenges in life?",
+                    "options": [
+                        {
+                            "label": "I prefer to take it easy",
+                            "value": "Small_planet_mass"
+                        },
+                        {
+                            "label": "I\u2019m ready to tackle anything!",
+                            "value": "Large_planet_mass"
+                        }
+                    ]
+                },
+                {
+                    "text": "When it comes to risk-taking, do you play it safe or go all in?",
+                    "options": [
+                        {
+                            "label": "I play it safe",
+                            "value": "Small_planet_mass"
+                        },
+                        {
+                            "label": "I dive right in",
+                            "value": "Large_planet_mass"
+                        }
+                    ]
+                },
+                {
+                    "text": "Would you consider yourself a minimalist or someone who loves to collect?",
+                    "options": [
+                        {
+                            "label": "I\u2019m a minimalist",
+                            "value": "Small_planet_mass"
+                        },
+                        {
+                            "label": "I love collecting!",
+                            "value": "Large_planet_mass"
+                        }
+                    ]
+                },
+                {
+                    "text": "How do you feel about responsibility?",
+                    "options": [
+                        {
+                            "label": "I prefer less responsibility",
+                            "value": "Small_planet_mass"
+                        },
+                        {
+                            "label": "I embrace it fully!",
+                            "value": "Large_planet_mass"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "feature": "planet_radius",
+            "questions": [
+                {
+                    "text": "What type of home do you prefer?",
+                    "options": [
+                        {
+                            "label": "Cozy and compact",
+                            "value": "Mini-Earth, Mini-Neptune"
+                        },
+                        {
+                            "label": "Comfortable and spacious",
+                            "value": "Earth-like, Sub-Jovian"
+                        },
+                        {
+                            "label": "Grand and luxurious",
+                            "value": "Super-Jovian, Jovian"
+                        }
+                    ]
+                },
+                {
+                    "text": "How do you like your adventures?",
+                    "options": [
+                        {
+                            "label": "Intimate and personal",
+                            "value": "Mini-Earth, Mini-Neptune"
+                        },
+                        {
+                            "label": "Balanced and enjoyable",
+                            "value": "Earth-like, Sub-Jovian"
+                        },
+                        {
+                            "label": "Extravagant and over the top!",
+                            "value": "Super-Jovian, Jovian"
+                        }
+                    ]
+                },
+                {
+                    "text": "When it comes to personality, are you more reserved or outgoing?",
+                    "options": [
+                        {
+                            "label": "I\u2019m quite reserved",
+                            "value": "Mini-Earth, Mini-Neptune"
+                        },
+                        {
+                            "label": "I have a balanced personality",
+                            "value": "Earth-like, Sub-Jovian"
+                        },
+                        {
+                            "label": "I\u2019m very outgoing!",
+                            "value": "Super-Jovian, Jovian"
+                        }
+                    ]
+                },
+                {
+                    "text": "What\u2019s your ideal vacation?",
+                    "options": [
+                        {
+                            "label": "A peaceful retreat",
+                            "value": "Mini-Earth, Mini-Neptune"
+                        },
+                        {
+                            "label": "A mix of relaxation and fun",
+                            "value": "Earth-like, Sub-Jovian"
+                        },
+                        {
+                            "label": "A thrilling adventure!",
+                            "value": "Super-Jovian, Jovian"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "feature": "eccentricity",
+            "questions": [
+                {
+                    "text": "How do you feel about spontaneity in life?",
+                    "options": [
+                        {
+                            "label": "I prefer routines",
+                            "value": "Low_eccentricity"
+                        },
+                        {
+                            "label": "I like a little spontaneity",
+                            "value": "High_eccentricity"
+                        }
+                    ]
+                },
+                {
+                    "text": "When faced with changes, how do you react?",
+                    "options": [
+                        {
+                            "label": "I handle them well",
+                            "value": "Low_eccentricity"
+                        },
+                        {
+                            "label": "I can be unpredictable!",
+                            "value": "High_eccentricity"
+                        }
+                    ]
+                },
+                {
+                    "text": "Do you enjoy surprises?",
+                    "options": [
+                        {
+                            "label": "I like predictability",
+                            "value": "Low_eccentricity"
+                        },
+                        {
+                            "label": "Surprises are exciting!",
+                            "value": "High_eccentricity"
+                        }
+                    ]
+                },
+                {
+                    "text": "How do you view risks?",
+                    "options": [
+                        {
+                            "label": "I take calculated risks",
+                            "value": "Low_eccentricity"
+                        },
+                        {
+                            "label": "I dive into uncertainty",
+                            "value": "High_eccentricity"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "feature": "host_temperature",
+            "questions": [
+                {
+                    "text": "What\u2019s your ideal weather?",
+                    "options": [
+                        {
+                            "label": "Cool and breezy",
+                            "value": "Cool"
+                        },
+                        {
+                            "label": "Pleasantly warm",
+                            "value": "Warm"
+                        },
+                        {
+                            "label": "Hot and sunny!",
+                            "value": "Hot"
+                        }
+                    ]
+                },
+                {
+                    "text": "How do you feel about extreme temperatures?",
+                    "options": [
+                        {
+                            "label": "I avoid them",
+                            "value": "Cool"
+                        },
+                        {
+                            "label": "I enjoy a bit of heat",
+                            "value": "Warm"
+                        },
+                        {
+                            "label": "I thrive in the heat!",
+                            "value": "Hot"
+                        }
+                    ]
+                },
+                {
+                    "text": "When it comes to climate, do you prefer:",
+                    "options": [
+                        {
+                            "label": "Chilly and refreshing",
+                            "value": "Cool"
+                        },
+                        {
+                            "label": "Mild and comfortable",
+                            "value": "Warm"
+                        },
+                        {
+                            "label": "Sweltering and sunny",
+                            "value": "Hot"
+                        }
+                    ]
+                },
+                {
+                    "text": "How do you like to dress?",
+                    "options": [
+                        {
+                            "label": "Layered for cool weather",
+                            "value": "Cool"
+                        },
+                        {
+                            "label": "Light and comfortable",
+                            "value": "Warm"
+                        },
+                        {
+                            "label": "Breezy and minimal",
+                            "value": "Hot"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "feature": "host_mass",
+            "questions": [
+                {
+                    "text": "How do you describe your social circle?",
+                    "options": [
+                        {
+                            "label": "I keep it small",
+                            "value": "Low_host_mass"
+                        },
+                        {
+                            "label": "I have a balanced mix",
+                            "value": "Medium_host_mass"
+                        },
+                        {
+                            "label": "I enjoy a large circle of friends!",
+                            "value": "High_host_mass"
+                        }
+                    ]
+                },
+                {
+                    "text": "What type of events do you enjoy?",
+                    "options": [
+                        {
+                            "label": "Intimate gatherings",
+                            "value": "Low_host_mass"
+                        },
+                        {
+                            "label": "Casual get-togethers",
+                            "value": "Medium_host_mass"
+                        },
+                        {
+                            "label": "Large parties and celebrations!",
+                            "value": "High_host_mass"
+                        }
+                    ]
+                },
+                {
+                    "text": "When it comes to community involvement, do you prefer:",
+                    "options": [
+                        {
+                            "label": "Working alone or in small teams",
+                            "value": "Low_host_mass"
+                        },
+                        {
+                            "label": "A mix of both",
+                            "value": "Medium_host_mass"
+                        },
+                        {
+                            "label": "Participating in large groups!",
+                            "value": "High_host_mass"
+                        }
+                    ]
+                },
+                {
+                    "text": "How would you describe your lifestyle?",
+                    "options": [
+                        {
+                            "label": "Simple and minimal",
+                            "value": "Low_host_mass"
+                        },
+                        {
+                            "label": "Balanced and moderate",
+                            "value": "Medium_host_mass"
+                        },
+                        {
+                            "label": "Dynamic and busy!",
+                            "value": "High_host_mass"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "feature": "host_radius",
+            "questions": [
+                {
+                    "text": "How do you prefer your living space?",
+                    "options": [
+                        {
+                            "label": "Cozy and compact",
+                            "value": "Small_host_radius"
+                        },
+                        {
+                            "label": "Comfortable and average",
+                            "value": "Medium_host_radius"
+                        },
+                        {
+                            "label": "Spacious and grand!",
+                            "value": "Large_host_radius"
+                        }
+                    ]
+                },
+                {
+                    "text": "What\u2019s your ideal community?",
+                    "options": [
+                        {
+                            "label": "A tight-knit neighborhood",
+                            "value": "Small_host_radius"
+                        },
+                        {
+                            "label": "A balanced community",
+                            "value": "Medium_host_radius"
+                        },
+                        {
+                            "label": "A vibrant and diverse area!",
+                            "value": "Large_host_radius"
+                        }
+                    ]
+                },
+                {
+                    "text": "When traveling, do you prefer:",
+                    "options": [
+                        {
+                            "label": "Small, intimate places",
+                            "value": "Small_host_radius"
+                        },
+                        {
+                            "label": "Moderate-sized towns",
+                            "value": "Medium_host_radius"
+                        },
+                        {
+                            "label": "Large cities and metropolises!",
+                            "value": "Large_host_radius"
+                        }
+                    ]
+                },
+                {
+                    "text": "How do you envision your future home?",
+                    "options": [
+                        {
+                            "label": "A small, cozy retreat",
+                            "value": "Small_host_radius"
+                        },
+                        {
+                            "label": "A balanced and comfortable house",
+                            "value": "Medium_host_radius"
+                        },
+                        {
+                            "label": "A large and luxurious mansion!",
+                            "value": "Large_host_radius"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "feature": "stellar_magnitude",
+            "questions": [
+                {
+                    "text": "How would you describe your presence in a group?",
+                    "options": [
+                        {
+                            "label": "I prefer to blend in",
+                            "value": "low_stellar_magnitude"
+                        },
+                        {
+                            "label": "I like to be recognized",
+                            "value": "high_stellar_magnitude"
+                        }
+                    ]
+                },
+                {
+                    "text": "When it comes to attention, do you seek it or avoid it?",
+                    "options": [
+                        {
+                            "label": "I avoid attention",
+                            "value": "Low_stellar_magnitude"
+                        },
+                        {
+                            "label": "I enjoy the spotlight!",
+                            "value": "High_stellar_magnitude"
+                        }
+                    ]
+                },
+                {
+                    "text": "How do you feel about taking risks in public?",
+                    "options": [
+                        {
+                            "label": "I prefer to stay low-key",
+                            "value": "Low_stellar_magnitude"
+                        },
+                        {
+                            "label": "I’m bold and enjoy being noticed!",
+                            "value": "High_stellar_magnitude"
+                        }
+                    ]
+                },
+                {
+                    "text": "What type of activities do you enjoy?",
+                    "options": [
+                        {
+                            "label": "Quiet hobbies",
+                            "value": "Low_stellar_magnitude"
+                        },
+                        {
+                            "label": "Exciting adventures!",
+                            "value": "High_stellar_magnitude"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

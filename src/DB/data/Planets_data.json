@@ -5,7 +5,7 @@
     "planet_radius": "1.1 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2009,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/BD+20_2457_c"
   },
   {
@@ -14,7 +14,7 @@
     "planet_radius": "0.253 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2009,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/CoRoT-7_c"
   },
   {
@@ -23,7 +23,7 @@
     "planet_radius": "1.13 x Earth",
     "planet_discovery_method": "Transit",
     "discovery_date": 2015,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_1132_b"
   },
   {
@@ -32,7 +32,7 @@
     "planet_radius": "0.254 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2009,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_1214_b"
   },
   {
@@ -41,7 +41,7 @@
     "planet_radius": "1.17 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2000,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_3021_b"
   },
   {
@@ -50,7 +50,7 @@
     "planet_radius": "0.209 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2019,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_357_d"
   },
   {
@@ -59,7 +59,7 @@
     "planet_radius": "0.372 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2004,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_436_b"
   },
   {
@@ -68,7 +68,7 @@
     "planet_radius": "1.16 x Jupiter",
     "planet_discovery_method": "Imaging",
     "discovery_date": 2013,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_504_b"
   },
   {
@@ -77,7 +77,7 @@
     "planet_radius": "0.366 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2005,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_581_b"
   },
   {
@@ -86,7 +86,7 @@
     "planet_radius": "2.21 x Earth",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2007,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_581_c"
   },
   {
@@ -95,7 +95,7 @@
     "planet_radius": "1.17 x Earth",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2009,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_581_e"
   },
   {
@@ -104,7 +104,7 @@
     "planet_radius": "2.23 x Earth",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2011,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_667_C_b"
   },
   {
@@ -113,7 +113,7 @@
     "planet_radius": "1.77 x Earth",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2011,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_667_C_c"
   },
   {
@@ -122,7 +122,7 @@
     "planet_radius": "2.18 x Earth",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2014,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_832_c"
   },
   {
@@ -131,7 +131,7 @@
     "planet_radius": "1.15 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 1999,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_86_b"
   },
   {
@@ -140,7 +140,7 @@
     "planet_radius": "1.19 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 1998,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_876_b"
   },
   {
@@ -149,7 +149,7 @@
     "planet_radius": "0.224 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2005,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_876_d"
   },
   {
@@ -158,7 +158,7 @@
     "planet_radius": "0.35 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2010,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_876_e"
   },
   {
@@ -167,7 +167,7 @@
     "planet_radius": "1.319 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2006,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HAT-P-1_b"
   },
   {
@@ -176,7 +176,7 @@
     "planet_radius": "1.212 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2011,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HAT-P-28_b"
   },
   {
@@ -185,7 +185,7 @@
     "planet_radius": "1.17 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2011,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HAT-P-29_b"
   },
   {
@@ -194,7 +194,7 @@
     "planet_radius": "0.456 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2010,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_10180_f"
   },
   {
@@ -203,7 +203,7 @@
     "planet_radius": "1.17 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2007,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_125612_b"
   },
   {
@@ -212,7 +212,7 @@
     "planet_radius": "1.19 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2009,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_147018_b"
   },
   {
@@ -221,7 +221,7 @@
     "planet_radius": "1.13 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2009,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_147018_c"
   },
   {
@@ -230,7 +230,7 @@
     "planet_radius": "0.74 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2005,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_149026_b"
   },
   {
@@ -239,7 +239,7 @@
     "planet_radius": "1.18 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2007,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_171028_b"
   },
   {
@@ -248,7 +248,7 @@
     "planet_radius": "1.1 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2007,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_17156_b"
   },
   {
@@ -257,7 +257,7 @@
     "planet_radius": "1.13 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2005,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_189733_b"
   },
   {
@@ -266,7 +266,7 @@
     "planet_radius": "1.39 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 1999,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_209458_b"
   },
   {
@@ -275,7 +275,7 @@
     "planet_radius": "0.214 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2009,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_215497_b"
   },
   {
@@ -284,7 +284,7 @@
     "planet_radius": "1.14 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2009,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_240210_b"
   },
   {
@@ -293,7 +293,7 @@
     "planet_radius": "1.14 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2001,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_28185_b"
   },
   {
@@ -302,7 +302,7 @@
     "planet_radius": "1.12 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2006,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_33283_b"
   },
   {
@@ -311,7 +311,7 @@
     "planet_radius": "1.18 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2004,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_37605_b"
   },
   {
@@ -320,7 +320,7 @@
     "planet_radius": "1.17 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2012,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_37605_c"
   },
   {
@@ -329,7 +329,7 @@
     "planet_radius": "1.24 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2000,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_38529_b"
   },
   {
@@ -338,7 +338,7 @@
     "planet_radius": "1.21 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2007,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_4113_b"
   },
   {
@@ -347,7 +347,7 @@
     "planet_radius": "0.368 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2005,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_4308_b"
   },
   {
@@ -356,7 +356,7 @@
     "planet_radius": "0.283 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2006,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_69830_b"
   },
   {
@@ -365,7 +365,7 @@
     "planet_radius": "0.309 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2006,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_69830_c"
   },
   {
@@ -374,7 +374,7 @@
     "planet_radius": "1.19 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2003,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_70642_b"
   },
   {
@@ -383,7 +383,7 @@
     "planet_radius": "1.18 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2007,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_81688_b"
   },
   {
@@ -392,7 +392,7 @@
     "planet_radius": "1.6 x Earth",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2011,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_85512_b"
   },
   {
@@ -401,7 +401,7 @@
     "planet_radius": "1.28 x Jupiter",
     "planet_discovery_method": "Radial Velocity",
     "discovery_date": 2005,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_99109_b"
   },
   {
@@ -410,7 +410,7 @@
     "planet_radius": "1.17 x Jupiter",
     "planet_discovery_method": "Imaging",
     "discovery_date": 2010,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HR_8799_e"
   },
   {
@@ -419,7 +419,7 @@
     "planet_radius": "1.891 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2017,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/KELT-9_b"
   },
   {
@@ -428,7 +428,7 @@
     "planet_radius": "1.87 x Earth",
     "planet_discovery_method": "Transit",
     "discovery_date": 2016,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-1638_b"
   },
   {
@@ -437,7 +437,7 @@
     "planet_radius": "1.06 x Earth",
     "planet_discovery_method": "Transit",
     "discovery_date": 2020,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-1649_c"
   },
   {
@@ -446,7 +446,7 @@
     "planet_radius": "0.754 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2011,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-16_b"
   },
   {
@@ -455,7 +455,7 @@
     "planet_radius": "1.4 x Earth",
     "planet_discovery_method": "Transit",
     "discovery_date": 2014,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-186_d"
   },
   {
@@ -464,7 +464,7 @@
     "planet_radius": "1.17 x Earth",
     "planet_discovery_method": "Transit",
     "discovery_date": 2014,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-186_f"
   },
   {
@@ -473,7 +473,7 @@
     "planet_radius": "0.212 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2011,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-22_b"
   },
   {
@@ -482,7 +482,7 @@
     "planet_radius": "1.82 x Earth",
     "planet_discovery_method": "Transit",
     "discovery_date": 2014,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-283_c"
   },
   {
@@ -491,7 +491,7 @@
     "planet_radius": "0.336 x Earth",
     "planet_discovery_method": "Transit",
     "discovery_date": 2013,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-37_b"
   },
   {
@@ -500,7 +500,7 @@
     "planet_radius": "1.13 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2014,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-419_c"
   },
   {
@@ -509,7 +509,7 @@
     "planet_radius": "1.63 x Earth",
     "planet_discovery_method": "Transit",
     "discovery_date": 2015,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-452_b"
   },
   {
@@ -518,7 +518,7 @@
     "planet_radius": "1.61 x Earth",
     "planet_discovery_method": "Transit",
     "discovery_date": 2013,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-62_e"
   },
   {
@@ -527,7 +527,7 @@
     "planet_radius": "1.41 x Earth",
     "planet_discovery_method": "Transit",
     "discovery_date": 2013,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-62_f"
   },
   {
@@ -536,7 +536,7 @@
     "planet_radius": "0.2 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2013,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-69_b"
   },
   {
@@ -545,7 +545,7 @@
     "planet_radius": "1.71 x Earth",
     "planet_discovery_method": "Transit",
     "discovery_date": 2013,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-69_c"
   },
   {
@@ -554,7 +554,7 @@
     "planet_radius": "0.759 x Earth",
     "planet_discovery_method": "Orbital Brightness Modulation",
     "discovery_date": 2011,
-    "planet_type": 3,
+    "planet_type": "Terrestrial",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/KOI-55_b"
   },
   {
@@ -563,7 +563,7 @@
     "planet_radius": "1.11 x Jupiter",
     "planet_discovery_method": "Microlensing",
     "discovery_date": 2013,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/MOA-2011-BLG-322L_b"
   },
   {
@@ -572,7 +572,7 @@
     "planet_radius": "1.33 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2017,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/NGTS-1_b"
   },
   {
@@ -581,7 +581,7 @@
     "planet_radius": "2.21 x Earth",
     "planet_discovery_method": "Microlensing",
     "discovery_date": 2005,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/OGLE-2005-BLG-390L_b"
   },
   {
@@ -590,7 +590,7 @@
     "planet_radius": "0.421 x Jupiter",
     "planet_discovery_method": "Microlensing",
     "discovery_date": 2009,
-    "planet_type": 0,
+    "planet_type": "Neptune-like",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/OGLE-2007-BLG-368L_b"
   },
   {
@@ -599,7 +599,7 @@
     "planet_radius": "0.338 x Earth",
     "planet_discovery_method": "Pulsar Timing",
     "discovery_date": 1994,
-    "planet_type": 3,
+    "planet_type": "Terrestrial",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/PSR_B1257+12_b"
   },
   {
@@ -608,7 +608,7 @@
     "planet_radius": "1.91 x Earth",
     "planet_discovery_method": "Pulsar Timing",
     "discovery_date": 1992,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/PSR_B1257+12_c"
   },
   {
@@ -617,7 +617,7 @@
     "planet_radius": "1.144 x Earth",
     "planet_discovery_method": "Transit",
     "discovery_date": 2020,
-    "planet_type": 2,
+    "planet_type": "Super Earth",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/TOI-700_d"
   },
   {
@@ -626,7 +626,7 @@
     "planet_radius": "0.307 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2020,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/TOI-849_b"
   },
   {
@@ -635,7 +635,7 @@
     "planet_radius": "0.752 x Earth",
     "planet_discovery_method": "Transit",
     "discovery_date": 2017,
-    "planet_type": 3,
+    "planet_type": "Terrestrial",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/TRAPPIST-1_h"
   },
   {
@@ -644,7 +644,7 @@
     "planet_radius": "1.1 x Jupiter",
     "planet_discovery_method": "Imaging",
     "discovery_date": 2020,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/TYC_8998-760-1_b"
   },
   {
@@ -653,7 +653,7 @@
     "planet_radius": "1.11 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2008,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/WASP-11_b"
   },
   {
@@ -662,7 +662,7 @@
     "planet_radius": "1.937 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2008,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/WASP-12_b"
   },
   {
@@ -671,7 +671,7 @@
     "planet_radius": "1.87 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2009,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/WASP-17_b"
   },
   {
@@ -680,7 +680,7 @@
     "planet_radius": "1.549 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2010,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/WASP-31_b"
   },
   {
@@ -689,7 +689,7 @@
     "planet_radius": "1.27 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2011,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/WASP-39_b"
   },
   {
@@ -698,7 +698,7 @@
     "planet_radius": "1.03 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2009,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/WASP-6_b"
   },
   {
@@ -707,7 +707,7 @@
     "planet_radius": "1.2 x Jupiter",
     "planet_discovery_method": "Transit",
     "discovery_date": 2014,
-    "planet_type": 1,
+    "planet_type": "Gas Giant",
     "URL": "https://eyes.nasa.gov/apps/exo/#/planet/WASP-96_b"
   }
 ]
