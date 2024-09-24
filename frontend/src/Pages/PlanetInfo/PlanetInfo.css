@@ -1,0 +1,81 @@
+@import '../../Shares/main.css';
+.planet-info{
+    width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.planet-info-overlay{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.planet-info-left , .planet-info-right{
+    max-width: 20%;
+}
+.planet-info h2{
+    font-size: 46px;
+    font-weight: 700;
+    color: var(--light-color);
+}
+.planet-info h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--light-color);
+}
+.planet-info p{
+    font-size: 18px;
+    margin-top:10px ;
+    color: var(--light-color2);
+}
+.planet-info .planet-title{
+    margin-top:15vh ;
+}
+
+@media (max-width:900px) {
+    .planet-info h2{
+        font-size: 40px;
+    }
+    .planet-info h3{
+        font-size: 20px;
+    }
+    .planet-info p{
+        font-size: 14px;
+    }
+    .planet-info .planet-title{
+        margin-top:12vh ;
+    }
+    
+}
+@media (max-width:750px) {
+    .planet-info h2{
+        font-size: 30px;
+    }
+    .planet-info h3{
+        font-size: 14px;
+    }
+    .planet-info p{
+        font-size: 12px;
+    }
+    .planet-info .planet-title{
+        margin-top:10vh ;
+    }
+}
+@media (max-width:357px) {
+    .planet-info h2{
+        font-size: 26px;
+    }
+    .planet-info h3{
+        font-size: 12px;
+    }
+    .planet-info p{
+        font-size: 8px;
+    }
+    .planet-info .planet-title{
+        margin-top:8vh ;
+    }
+}

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Cards.css";
+import { Link } from "react-router-dom";
 const baseUrl = "https://nasa-space-apps-2024.onrender.com/api/v1/uploads";
 const srcee = `${baseUrl}/14_Her_b.jpg`;
 function Cards({ cardItem }) {
@@ -14,9 +15,10 @@ function Cards({ cardItem }) {
           <p className="card-body">Mass: {cardItem.planet_mass}</p>
           <p className="card-body">Radius: {cardItem.planet_radius}</p>
         </div>
-        <a href="#" className="button">
+        <Link to={`/cards/${cardItem.name}`} className="button">Learn More</Link>
+        {/* <a href="#" className="button">
           Learn More
-        </a>
+        </a> */}
       </div>
     </div>
   );

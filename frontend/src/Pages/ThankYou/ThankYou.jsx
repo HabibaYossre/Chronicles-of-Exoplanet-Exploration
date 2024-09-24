@@ -36,6 +36,7 @@ const ThankYou = () => {
             <p className='thankyou-description'>Thanks for joining us on this incredible exploration of exoplanets. We hope you've enjoyed discovering new worlds.</p>
             <p className='thankyou-comment'>Leave a comment below and let us know what you thought of our journey. Did you discover any favorite exoplanets? What surprised you the most? We'd love to hear your thoughts!</p>
             <textarea placeholder='leave us a comment'/>
+            <button>Send</button>
         </div>
         <img className='thankyou-img' src={assets.thankyou} draggable='false' />
         <img className='thankyou-footer' src={assets.thankyou_footer} draggable='false' alt='Footer' />

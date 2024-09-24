@@ -53,12 +53,12 @@
     font-weight: 500;
 }
 .thankyou-description{
-    color: #ded9d9;;
+    color: var(--light-color2);
     font-size: 18px;
     margin: 30px 0px;
 }
 .thankyou-comment{
-    color:#ded9d9;
+    color:var(--light-color2);
     font-size: 18px;
     margin-bottom:60px ;
 }
@@ -66,6 +66,7 @@
     width: 50%;
     min-height: 20vh;
     padding: 10px;
+    display: block;
     border-radius:10px ;
 }
 .thankyou-img{
@@ -78,6 +79,21 @@
 .thankyou-footer{
     width: 100%;
     min-height: 10vh;
+}
+.thankyou button{
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid var(--light-color);
+    border-radius: 5px ;
+    color: var(--light-color);
+    transition: 0.3s;
+    transition: 0.5s ease-in-out;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.thankyou button:hover{
+    background-color: var(--main-color)
 }
 @media (max-width:1400px) {
     .thankyou-content{

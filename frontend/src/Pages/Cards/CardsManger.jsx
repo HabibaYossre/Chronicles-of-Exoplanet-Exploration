@@ -5,6 +5,7 @@ import Pagination from "@mui/material/Pagination";
 import { CircularProgress, Stack } from "@mui/material";
 import GifIcon from "../../Components/GifIcon";
 import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
 const pageLimit = 12;
 function CardsManger() {
   const [list, setList] = useState();
@@ -89,10 +90,11 @@ function CardsManger() {
           onChange={handleChangePage}
         />
       </div>
-      <iframe
+      {/* <iframe
         src="https://eyes.nasa.gov/apps/exo/#/planet/BD+20_2457_c"
         style={{ width: "100%", height: 600, border: "none" }}
-      />
+      /> */}
+         <Footer />
     </Stack>
   ) : (
     <div className="bg-black h-screen flex justify-center items-center">

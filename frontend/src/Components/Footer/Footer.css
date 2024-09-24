@@ -54,15 +54,6 @@
     border-bottom: 3px solid var(--second-color);
     color: var(--second-color);
  }
-.footer img{
-    position: absolute;
-    z-index: 20;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 25vw;
-    height: 17vw;
-}
 .cursor{
     position: absolute;
     width: 90px;
@@ -72,54 +63,17 @@
     transform: translate(-50%, -50%);
     pointer-events: none;
 }
-.eyes {
+.footer p{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--hover-color);
     position: absolute;
-    height: 7vw;
-    width: 15vw;
-    margin-top: 4vh;
+    z-index: 11000;
     left: 50%;
     transform: translateX(-50%);
-    display: flex;
-    justify-content: space-between;
-    align-items:end;
-    z-index: 30;
+    top:20px;
 }
 
-.eye {
-    height: 65%;
-    width: 65%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.balls {
-    height: 40%;
-    width: 40%;
-    background-image: url("../../Assets/eye.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-@media (max-width:1400px) {
-    .eyes {
-        margin-top: 10vh;
-    }
-    .eye {
-        height: 60%;
-        width: 60%;
-    }
-}
-@media (max-width:900px) {
-    .footer img{
-        width: 30vw;
-        height: 28vw;
-    }
-    .eyes {
-        margin-top: 20vh;
-    }
-}
 @media (max-width:750px) {
     .footer span{
         padding: 12px 1px;
@@ -131,16 +85,4 @@
      .footer .last{
         padding: 12px 30px 12px 0px;
      }
-     .footer img{
-        width: 35vw;
-        height: 40vw;
-    }
-    .eyes {
-        margin-top: 25vw;
-    }
-}
-@media (max-width:357px) {
-    .eyes {
-        margin-top:75vw
-    }
 }
