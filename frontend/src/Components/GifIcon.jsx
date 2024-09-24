@@ -7,6 +7,7 @@ function GifIcon(props) {
       alt={props.alt || "GIF icon"}
       style={{ width: props.size || "32px", height: props.size || "32px" }}
       onClick={props.onClick}
+      className="cursor-pointer"
     />
   );
 }

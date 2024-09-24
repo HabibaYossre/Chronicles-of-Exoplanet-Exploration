@@ -16,9 +16,6 @@ const Navbar = () => {
         <NavLink to="/" style={activeStyle}>
           Home
         </NavLink>
-        <NavLink to="/chat" style={activeStyle}>
-          Chatbot
-        </NavLink>
         <NavLink to="/Personality_test" style={activeStyle}>
           Personality Test
         </NavLink>

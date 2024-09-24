@@ -98,7 +98,6 @@ function CardsManger() {
     <div className="bg-black h-screen flex justify-center items-center">
       <CircularProgress />
     </div>
-    </>
 
   );
 }

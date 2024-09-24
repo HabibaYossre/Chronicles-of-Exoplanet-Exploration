@@ -5,25 +5,24 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Slides from "../../Components/Slides/Slides";
 import { Button } from "@mui/material";
 import Carousel from "../../Components/Slides/Slides";
-import Information from '../../Components/Information/Information';
-import { assets } from '../../Assets/assets';
+import Information from "../../Components/Information/Information";
+import { assets } from "../../Assets/assets";
 
 const Home = () => {
-  
   return (
     <div style={{ position: "relative", overflow: "hidden" }}>
       <Navbar />
       {/* <div className="flex w-full h-screen items-center justify-center absolute z-10">
         <p className="text-white font-bold text-3xl md:text-6xl">EXOPLANETS WORLD</p>
         </div> */}
-      <BgAnimation />
       <div style={{ position: "relative", overflow: "hidden" }}>
+        <BgAnimation />
         <video
           autoPlay
           loop
           muted
           style={{
-            // position: "absolute",
+            position: "fixed",
             top: 0,
             left: 0,
             width: "100%",
@@ -39,11 +38,13 @@ const Home = () => {
           Your browser does not support the video tag.
         </video>
       </div>
+      <Information />
       <Slides />
-      <GoToPersonalCheck />
-      <Slides />
+      <Break>
+        <GoToPersonalCheck />
+      </Break>
+
       <Footer />
-      
     </div>
   );
 };
@@ -113,13 +114,16 @@ function BgAnimation() {
   );
 }
 
-function Break(){
+function Break({childern}) {
   return (
-    <div className="break-gif">
-      <div className="break-overlay">
-
+    <div className="break-gif my-5">
+      <div className="flex justify-center h-full bg-[rgba(0,0,0,0.6)] items-center gap-3">
+        <p className="text-center text-white py-0 my-0 text-2xl">
+          Find your most matched planet 🌍
+        </p>
+        <Button variant="contained">Personal Check</Button>
       </div>
-        {/* <img src={assets.gif} draggable='false'/> */}
+      
     </div>
   );
 }
