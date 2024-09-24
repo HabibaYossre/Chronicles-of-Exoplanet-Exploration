@@ -1,13 +1,15 @@
-import React, { useEffect, useRef } from 'react'
-import './Home.css'
-import Footer from '../../Components/Footer/Footer';
-import Navbar from '../../Components/Navbar/Navbar';
-import Slides from '../../Components/Slides/Slides';
-import { Button } from '@mui/material';
+import React, { useEffect, useRef, useState } from "react";
+import "./Home.css";
+import Footer from "../../Components/Footer/Footer";
+import Navbar from "../../Components/Navbar/Navbar";
+import Slides from "../../Components/Slides/Slides";
+import { Button } from "@mui/material";
+import Carousel from "../../Components/Slides/Slides";
 import Information from '../../Components/Information/Information';
 import { assets } from '../../Assets/assets';
 
 const Home = () => {
+  
   return (
     <div style={{ position: "relative", overflow: "hidden" }}>
       <Navbar />
@@ -25,7 +27,7 @@ const Home = () => {
             top: 0,
             left: 0,
             width: "100%",
-            minHeight: "100vh",
+            height: "100vh",
             objectFit: "cover",
             zIndex: -1000,
           }}
@@ -37,15 +39,14 @@ const Home = () => {
           Your browser does not support the video tag.
         </video>
       </div>
+      <Slides />
       <GoToPersonalCheck />
-      {/* <Slides /> */}
-      <Information/>
-      <Break/>
+      <Slides />
       <Footer />
       
     </div>
   );
-}
+};
 
 function BgAnimation() {
   // useEffect(() => {
@@ -78,7 +79,7 @@ function BgAnimation() {
   // }, []);
 
   return (
-    <div className="parallax overflow-x-hidden">
+    <div className="parallax overflow-x-hidden h-screen">
       <img
         src={require("../../Assets/HomePlanets/1.png")}
         alt=""
@@ -123,8 +124,7 @@ function Break(){
   );
 }
 
-
-function GoToPersonalCheck(){
+function GoToPersonalCheck() {
   return (
     <div className="w-full h-1/4 bg-black mx-0 p-10 border-y-2 border-dotted border-black hover:border-white hover:border-opacity-60 transition-all duration-300 ease-in-out">
       <div className="flex justify-center items-center gap-5">
@@ -137,4 +137,4 @@ function GoToPersonalCheck(){
   );
 }
 
-export default Home
+export default Home;
