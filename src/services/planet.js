@@ -24,3 +24,17 @@ export const addPlanets = async (planetData) => {
     // add planets to the database
     await Planet.insertMany(planetData);
 };
+
+// service to get planet by name
+export const getPlanetByName = async (name) => {
+
+    // get the planet by name
+    const planet = await Planet.findOne({ name });
+
+    // check if the planet exists
+    if (!planet) {
+        throw createCustomError("Planet not found!", 404, null);
+    }
+
+    return planet;
+};

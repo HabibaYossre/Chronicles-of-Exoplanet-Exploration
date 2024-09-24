@@ -51,3 +51,29 @@ export const addPlanet = async (req, res, next) => {
         next(error);
     }
 }
+
+// controller to get planet by name
+export const getPlanetByName = async (req, res, next) => {
+    try {
+
+        // get the name from the request
+        const name = req.params.name;
+
+        // check if the name is provided
+        if (!name) {
+            throw createCustomError("Please provide planet name!", 400, null);
+        }
+
+        // get planet by name
+        const planet = await planetService.getPlanetByName(name);
+
+        return res.status(200).json({
+            message: "Success",
+            body: planet,
+            status: 200
+        });
+
+    } catch (error) {
+        next(error);
+    }
+}
