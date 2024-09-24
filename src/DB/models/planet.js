@@ -1,8 +1,8 @@
 import mongoose from 'mongoose';
 
 // Create a schema for the planets
-// name: String (required, unique)
-// 3d url: String (required)
+// name	planet_mass	planet_radius	planet_discovery_method	discovery_date	planet_type	URL
+
 
 const planetSchema = new mongoose.Schema({
     name: {
@@ -10,8 +10,28 @@ const planetSchema = new mongoose.Schema({
         required: true,
         unique: true,
     },
-    url_3D: {
+    URL: {
         type: String,
+        required: true,
+    },
+    planet_mass: {
+        type: String,
+        required: true,
+    },
+    planet_radius: {
+        type: String,
+        required: true,
+    },
+    planet_discovery_method: {
+        type: String,
+        required: true,
+    },
+    discovery_date: {
+        type: Number,
+        required: true,
+    },
+    planet_type: {
+        type: Number,
         required: true,
     }
 });

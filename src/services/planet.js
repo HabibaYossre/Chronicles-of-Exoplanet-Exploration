@@ -17,3 +17,10 @@ export const getAllPlanets = async (page, limit) => {
 
     return planets;
 };
+
+// service to add planets to the database
+export const addPlanets = async (planetData) => {
+
+    // add planets to the database
+    await Planet.insertMany(planetData);
+};

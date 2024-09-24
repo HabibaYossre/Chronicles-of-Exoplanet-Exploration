@@ -1,0 +1,713 @@
+[
+  {
+    "name": "BD+20_2457_c",
+    "planet_mass": "12.47 Jupiters",
+    "planet_radius": "1.1 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2009,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/BD+20_2457_c"
+  },
+  {
+    "name": "CoRoT-7_c",
+    "planet_mass": "8.4 Earths",
+    "planet_radius": "0.253 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2009,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/CoRoT-7_c"
+  },
+  {
+    "name": "GJ_1132_b",
+    "planet_mass": "1.66 Earths",
+    "planet_radius": "1.13 x Earth",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2015,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_1132_b"
+  },
+  {
+    "name": "GJ_1214_b",
+    "planet_mass": "6.26125 Earths",
+    "planet_radius": "0.254 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2009,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_1214_b"
+  },
+  {
+    "name": "GJ_3021_b",
+    "planet_mass": "3.37 Jupiters",
+    "planet_radius": "1.17 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2000,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_3021_b"
+  },
+  {
+    "name": "GJ_357_d",
+    "planet_mass": "6.1 Earths",
+    "planet_radius": "0.209 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2019,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_357_d"
+  },
+  {
+    "name": "GJ_436_b",
+    "planet_mass": "22.1 Earths",
+    "planet_radius": "0.372 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2004,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_436_b"
+  },
+  {
+    "name": "GJ_504_b",
+    "planet_mass": "4 Jupiters",
+    "planet_radius": "1.16 x Jupiter",
+    "planet_discovery_method": "Imaging",
+    "discovery_date": 2013,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_504_b"
+  },
+  {
+    "name": "GJ_581_b",
+    "planet_mass": "15.8 Earths",
+    "planet_radius": "0.366 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2005,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_581_b"
+  },
+  {
+    "name": "GJ_581_c",
+    "planet_mass": "5.5 Earths",
+    "planet_radius": "2.21 x Earth",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2007,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_581_c"
+  },
+  {
+    "name": "GJ_581_e",
+    "planet_mass": "1.7 Earths",
+    "planet_radius": "1.17 x Earth",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2009,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_581_e"
+  },
+  {
+    "name": "GJ_667_C_b",
+    "planet_mass": "5.6 Earths",
+    "planet_radius": "2.23 x Earth",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2011,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_667_C_b"
+  },
+  {
+    "name": "GJ_667_C_c",
+    "planet_mass": "3.8 Earths",
+    "planet_radius": "1.77 x Earth",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2011,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_667_C_c"
+  },
+  {
+    "name": "GJ_832_c",
+    "planet_mass": "5.4 Earths",
+    "planet_radius": "2.18 x Earth",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2014,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_832_c"
+  },
+  {
+    "name": "GJ_86_b",
+    "planet_mass": "4.42 Jupiters",
+    "planet_radius": "1.15 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 1999,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_86_b"
+  },
+  {
+    "name": "GJ_876_b",
+    "planet_mass": "2.2756 Jupiters",
+    "planet_radius": "1.19 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 1998,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_876_b"
+  },
+  {
+    "name": "GJ_876_d",
+    "planet_mass": "6.83 Earths",
+    "planet_radius": "0.224 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2005,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_876_d"
+  },
+  {
+    "name": "GJ_876_e",
+    "planet_mass": "14.6 Earths",
+    "planet_radius": "0.35 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2010,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/GJ_876_e"
+  },
+  {
+    "name": "HAT-P-1_b",
+    "planet_mass": "0.525 Jupiters",
+    "planet_radius": "1.319 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2006,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HAT-P-1_b"
+  },
+  {
+    "name": "HAT-P-28_b",
+    "planet_mass": "0.626 Jupiters",
+    "planet_radius": "1.212 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2011,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HAT-P-28_b"
+  },
+  {
+    "name": "HAT-P-29_b",
+    "planet_mass": "0.88 Jupiters",
+    "planet_radius": "1.17 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2011,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HAT-P-29_b"
+  },
+  {
+    "name": "HD_10180_f",
+    "planet_mass": "22.94733 Earths",
+    "planet_radius": "0.456 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2010,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_10180_f"
+  },
+  {
+    "name": "HD_125612_b",
+    "planet_mass": "3.1 Jupiters",
+    "planet_radius": "1.17 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2007,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_125612_b"
+  },
+  {
+    "name": "HD_147018_b",
+    "planet_mass": "2.12 Jupiters",
+    "planet_radius": "1.19 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2009,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_147018_b"
+  },
+  {
+    "name": "HD_147018_c",
+    "planet_mass": "6.56 Jupiters",
+    "planet_radius": "1.13 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2009,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_147018_c"
+  },
+  {
+    "name": "HD_149026_b",
+    "planet_mass": "0.38 Jupiters",
+    "planet_radius": "0.74 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2005,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_149026_b"
+  },
+  {
+    "name": "HD_171028_b",
+    "planet_mass": "2.62 Jupiters",
+    "planet_radius": "1.18 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2007,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_171028_b"
+  },
+  {
+    "name": "HD_17156_b",
+    "planet_mass": "3.51 Jupiters",
+    "planet_radius": "1.1 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2007,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_17156_b"
+  },
+  {
+    "name": "HD_189733_b",
+    "planet_mass": "1.13 Jupiters",
+    "planet_radius": "1.13 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2005,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_189733_b"
+  },
+  {
+    "name": "HD_209458_b",
+    "planet_mass": "0.73 Jupiters",
+    "planet_radius": "1.39 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 1999,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_209458_b"
+  },
+  {
+    "name": "HD_215497_b",
+    "planet_mass": "6.3566 Earths",
+    "planet_radius": "0.214 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2009,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_215497_b"
+  },
+  {
+    "name": "HD_240210_b",
+    "planet_mass": "5.21 Jupiters",
+    "planet_radius": "1.14 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2009,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_240210_b"
+  },
+  {
+    "name": "HD_28185_b",
+    "planet_mass": "5.9 Jupiters",
+    "planet_radius": "1.14 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2001,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_28185_b"
+  },
+  {
+    "name": "HD_33283_b",
+    "planet_mass": "0.329 Jupiters",
+    "planet_radius": "1.12 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2006,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_33283_b"
+  },
+  {
+    "name": "HD_37605_b",
+    "planet_mass": "2.69 Jupiters",
+    "planet_radius": "1.18 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2004,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_37605_b"
+  },
+  {
+    "name": "HD_37605_c",
+    "planet_mass": "3.19 Jupiters",
+    "planet_radius": "1.17 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2012,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_37605_c"
+  },
+  {
+    "name": "HD_38529_b",
+    "planet_mass": "0.797 Jupiters",
+    "planet_radius": "1.24 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2000,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_38529_b"
+  },
+  {
+    "name": "HD_4113_b",
+    "planet_mass": "1.56 Jupiters",
+    "planet_radius": "1.21 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2007,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_4113_b"
+  },
+  {
+    "name": "HD_4308_b",
+    "planet_mass": "15.8915 Earths",
+    "planet_radius": "0.368 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2005,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_4308_b"
+  },
+  {
+    "name": "HD_69830_b",
+    "planet_mass": "10.2 Earths",
+    "planet_radius": "0.283 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2006,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_69830_b"
+  },
+  {
+    "name": "HD_69830_c",
+    "planet_mass": "11.8 Earths",
+    "planet_radius": "0.309 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2006,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_69830_c"
+  },
+  {
+    "name": "HD_70642_b",
+    "planet_mass": "1.993 Jupiters",
+    "planet_radius": "1.19 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2003,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_70642_b"
+  },
+  {
+    "name": "HD_81688_b",
+    "planet_mass": "2.7 Jupiters",
+    "planet_radius": "1.18 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2007,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_81688_b"
+  },
+  {
+    "name": "HD_85512_b",
+    "planet_mass": "3.1783 Earths",
+    "planet_radius": "1.6 x Earth",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2011,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_85512_b"
+  },
+  {
+    "name": "HD_99109_b",
+    "planet_mass": "0.44 Jupiters",
+    "planet_radius": "1.28 x Jupiter",
+    "planet_discovery_method": "Radial Velocity",
+    "discovery_date": 2005,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HD_99109_b"
+  },
+  {
+    "name": "HR_8799_e",
+    "planet_mass": "10 Jupiters",
+    "planet_radius": "1.17 x Jupiter",
+    "planet_discovery_method": "Imaging",
+    "discovery_date": 2010,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/HR_8799_e"
+  },
+  {
+    "name": "KELT-9_b",
+    "planet_mass": "2.88 Jupiters",
+    "planet_radius": "1.891 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2017,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/KELT-9_b"
+  },
+  {
+    "name": "Kepler-1638_b",
+    "planet_mass": "4.16 Earths",
+    "planet_radius": "1.87 x Earth",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2016,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-1638_b"
+  },
+  {
+    "name": "Kepler-1649_c",
+    "planet_mass": "1.2 Earths",
+    "planet_radius": "1.06 x Earth",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2020,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-1649_c"
+  },
+  {
+    "name": "Kepler-16_b",
+    "planet_mass": "0.333 Jupiters",
+    "planet_radius": "0.754 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2011,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-16_b"
+  },
+  {
+    "name": "Kepler-186_d",
+    "planet_mass": "2.54 Earths",
+    "planet_radius": "1.4 x Earth",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2014,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-186_d"
+  },
+  {
+    "name": "Kepler-186_f",
+    "planet_mass": "1.71 Earths",
+    "planet_radius": "1.17 x Earth",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2014,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-186_f"
+  },
+  {
+    "name": "Kepler-22_b",
+    "planet_mass": "36 Earths",
+    "planet_radius": "0.212 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2011,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-22_b"
+  },
+  {
+    "name": "Kepler-283_c",
+    "planet_mass": "3.97 Earths",
+    "planet_radius": "1.82 x Earth",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2014,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-283_c"
+  },
+  {
+    "name": "Kepler-37_b",
+    "planet_mass": "3.1783 Earths",
+    "planet_radius": "0.336 x Earth",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2013,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-37_b"
+  },
+  {
+    "name": "Kepler-419_c",
+    "planet_mass": "7.3 Jupiters",
+    "planet_radius": "1.13 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2014,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-419_c"
+  },
+  {
+    "name": "Kepler-452_b",
+    "planet_mass": "3.29 Earths",
+    "planet_radius": "1.63 x Earth",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2015,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-452_b"
+  },
+  {
+    "name": "Kepler-62_e",
+    "planet_mass": "36 Earths",
+    "planet_radius": "1.61 x Earth",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2013,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-62_e"
+  },
+  {
+    "name": "Kepler-62_f",
+    "planet_mass": "35 Earths",
+    "planet_radius": "1.41 x Earth",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2013,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-62_f"
+  },
+  {
+    "name": "Kepler-69_b",
+    "planet_mass": "5.65 Earths",
+    "planet_radius": "0.2 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2013,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-69_b"
+  },
+  {
+    "name": "Kepler-69_c",
+    "planet_mass": "3.57 Earths",
+    "planet_radius": "1.71 x Earth",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2013,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/Kepler-69_c"
+  },
+  {
+    "name": "KOI-55_b",
+    "planet_mass": "0.44 Earths",
+    "planet_radius": "0.759 x Earth",
+    "planet_discovery_method": "Orbital Brightness Modulation",
+    "discovery_date": 2011,
+    "planet_type": 3,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/KOI-55_b"
+  },
+  {
+    "name": "MOA-2011-BLG-322L_b",
+    "planet_mass": "11.6 Jupiters",
+    "planet_radius": "1.11 x Jupiter",
+    "planet_discovery_method": "Microlensing",
+    "discovery_date": 2013,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/MOA-2011-BLG-322L_b"
+  },
+  {
+    "name": "NGTS-1_b",
+    "planet_mass": "0.812 Jupiters",
+    "planet_radius": "1.33 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2017,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/NGTS-1_b"
+  },
+  {
+    "name": "OGLE-2005-BLG-390L_b",
+    "planet_mass": "5.5 Earths",
+    "planet_radius": "2.21 x Earth",
+    "planet_discovery_method": "Microlensing",
+    "discovery_date": 2005,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/OGLE-2005-BLG-390L_b"
+  },
+  {
+    "name": "OGLE-2007-BLG-368L_b",
+    "planet_mass": "20 Earths",
+    "planet_radius": "0.421 x Jupiter",
+    "planet_discovery_method": "Microlensing",
+    "discovery_date": 2009,
+    "planet_type": 0,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/OGLE-2007-BLG-368L_b"
+  },
+  {
+    "name": "PSR_B1257+12_b",
+    "planet_mass": "0.02 Earths",
+    "planet_radius": "0.338 x Earth",
+    "planet_discovery_method": "Pulsar Timing",
+    "discovery_date": 1994,
+    "planet_type": 3,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/PSR_B1257+12_b"
+  },
+  {
+    "name": "PSR_B1257+12_c",
+    "planet_mass": "4.3 Earths",
+    "planet_radius": "1.91 x Earth",
+    "planet_discovery_method": "Pulsar Timing",
+    "discovery_date": 1992,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/PSR_B1257+12_c"
+  },
+  {
+    "name": "TOI-700_d",
+    "planet_mass": "1.57 Earths",
+    "planet_radius": "1.144 x Earth",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2020,
+    "planet_type": 2,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/TOI-700_d"
+  },
+  {
+    "name": "TOI-849_b",
+    "planet_mass": "39.09 Earths",
+    "planet_radius": "0.307 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2020,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/TOI-849_b"
+  },
+  {
+    "name": "TRAPPIST-1_h",
+    "planet_mass": "0.331 Earths",
+    "planet_radius": "0.752 x Earth",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2017,
+    "planet_type": 3,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/TRAPPIST-1_h"
+  },
+  {
+    "name": "TYC_8998-760-1_b",
+    "planet_mass": "14 Jupiters",
+    "planet_radius": "1.1 x Jupiter",
+    "planet_discovery_method": "Imaging",
+    "discovery_date": 2020,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/TYC_8998-760-1_b"
+  },
+  {
+    "name": "WASP-11_b",
+    "planet_mass": "0.79 Jupiters",
+    "planet_radius": "1.11 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2008,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/WASP-11_b"
+  },
+  {
+    "name": "WASP-12_b",
+    "planet_mass": "1.465 Jupiters",
+    "planet_radius": "1.937 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2008,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/WASP-12_b"
+  },
+  {
+    "name": "WASP-17_b",
+    "planet_mass": "0.78 Jupiters",
+    "planet_radius": "1.87 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2009,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/WASP-17_b"
+  },
+  {
+    "name": "WASP-31_b",
+    "planet_mass": "0.478 Jupiters",
+    "planet_radius": "1.549 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2010,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/WASP-31_b"
+  },
+  {
+    "name": "WASP-39_b",
+    "planet_mass": "0.28 Jupiters",
+    "planet_radius": "1.27 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2011,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/WASP-39_b"
+  },
+  {
+    "name": "WASP-6_b",
+    "planet_mass": "0.37 Jupiters",
+    "planet_radius": "1.03 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2009,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/WASP-6_b"
+  },
+  {
+    "name": "WASP-96_b",
+    "planet_mass": "0.48 Jupiters",
+    "planet_radius": "1.2 x Jupiter",
+    "planet_discovery_method": "Transit",
+    "discovery_date": 2014,
+    "planet_type": 1,
+    "URL": "https://eyes.nasa.gov/apps/exo/#/planet/WASP-96_b"
+  }
+]
