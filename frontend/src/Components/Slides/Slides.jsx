@@ -19,10 +19,12 @@ function SliderItem({
       <img
         src={`${baseUrl}/uploads/${name}.jpg`}
         alt={name}
-        className="no-bg"
+        className="rounded-full shadow-lg fade-effect"
       />
       <div className="introduce">
-        <div className="title text-white py-3 pb-7 text-4xl md:text-6xl">{name}</div>
+        <div className="title text-white py-3 pb-7 text-4xl md:text-6xl">
+          {name}
+        </div>
         <div className="des">
           <p>Mass: {planet_mass}</p>
           <p>Radius: {planet_radius}</p>

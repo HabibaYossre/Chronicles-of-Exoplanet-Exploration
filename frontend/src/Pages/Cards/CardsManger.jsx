@@ -40,7 +40,7 @@ function CardsManger() {
   }, [pageNumber]);
   return list ? (
     <Stack spacing={2}>
-      <Navbar/>
+      <Navbar />
       <div className="flex items-center justify-center gap-3 pt-24">
         <GifIcon
           src={require("../../Assets/GIF/output-onlinegiftools.gif")}
@@ -85,7 +85,7 @@ function CardsManger() {
         <Pagination
           count={pagesCount}
           color="primary"
-          className="bg-white rounded-2xl py-1 px-6 mb-4"
+          className="bg-[rgba(0,0,0,0.7)] rounded-2xl py-1 px-6 mb-4 page-white"
           onChange={handleChangePage}
         />
       </div>
@@ -98,7 +98,6 @@ function CardsManger() {
     <div className="bg-black h-screen flex justify-center items-center">
       <CircularProgress />
     </div>
-
   );
 }
 
