@@ -22,6 +22,9 @@ Accent Colors:
 Solar Yellow: #F9A825
 Nebula Pink: #FFB6C1 */
 }
+.css-1gaup4j-MuiButtonBase-root-MuiPaginationItem-root {
+  color: white !important;
+}
 
 *,
 *::before,

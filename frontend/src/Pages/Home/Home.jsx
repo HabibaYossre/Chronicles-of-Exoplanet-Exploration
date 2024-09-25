@@ -7,6 +7,7 @@ import { Button } from "@mui/material";
 import Carousel from "../../Components/Slides/Slides";
 import Information from "../../Components/Information/Information";
 import { assets } from "../../Assets/assets";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -50,6 +51,7 @@ const Home = () => {
 };
 
 function BgAnimation() {
+  
   // useEffect(() => {
   //   const handleScroll = () => {
   //     const scrollPosition = window.pageYOffset;
@@ -115,13 +117,14 @@ function BgAnimation() {
 }
 
 function Break({childern}) {
+  const navigate=useNavigate();
   return (
     <div className="break-gif my-5">
       <div className="flex justify-center h-full bg-[rgba(0,0,0,0.6)] items-center gap-3">
         <p className="text-center text-white py-0 my-0 text-2xl">
           Find your most matched planet 🌍
         </p>
-        <Button variant="contained">Personal Check</Button>
+        <Button onClick={()=>{navigate('/Personality_test')}} variant="contained">Personal Check</Button>
       </div>
       
     </div>
@@ -129,13 +132,14 @@ function Break({childern}) {
 }
 
 function GoToPersonalCheck() {
+  const navigate=useNavigate();
   return (
     <div className="w-full h-1/4 bg-black mx-0 p-10 border-y-2 border-dotted border-black hover:border-white hover:border-opacity-60 transition-all duration-300 ease-in-out">
       <div className="flex justify-center items-center gap-5">
         <p className="text-center text-white py-0 my-0">
           Find your most matched planet 🌍
         </p>
-        <Button variant="contained">Personal Check</Button>
+        <Button onClick={()=>{navigate('/Personality_test')}} variant="contained">Personal Check</Button>
       </div>
     </div>
   );

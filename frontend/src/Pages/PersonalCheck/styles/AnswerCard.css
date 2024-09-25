@@ -1,0 +1,39 @@
+@import '../../../Shares/main.css';
+.gradient-shadow {
+  position: relative;
+  overflow: visible;
+  transition: all 0.5s ease-in-out;
+}
+
+.gradient-shadow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit; /* Match the card's border-radius */
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 255, 0.3),
+    rgba(255, 0, 0, 0.3)
+  ); /* Set the gradient */
+  filter: blur(20px); /* Blur effect to simulate shadow */
+  opacity: 0; /* Initially hidden */
+  z-index: -1; /* Ensure it is behind the card */
+  transition: all 0.5s ease-in-out;
+}
+.gradient-shadow:hover::before {
+  opacity: 1; /* Show the gradient shadow on hover */
+}
+.activity-choice{
+  cursor: pointer;
+  background: url("../../../Assets/galaxy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--light-color);
+}
+.focused {
+  /* Add your desired focus styles here */
+  border: 3px solid var(--light-color); /* Example: Add a blue outline on focus */
+}
