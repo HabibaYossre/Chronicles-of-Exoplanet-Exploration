@@ -1,4 +1,0 @@
-langchain
-langchain-community
-pypdf
-faiss-gpu
