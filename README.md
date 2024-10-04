@@ -53,3 +53,18 @@ The harmony between the **Exploration of Exoplanets** and the **Innovation of Ex
 ---
 
 ## 🚀 How to Run
+### Frontend
+To run the frontend locally, follow these steps:
+
+1. Navigate to the `frontend` folder:
+   ```bash
+   cd frontend
+2. Install the required dependencies:
+    ```bash
+   npm i 
+3. Start the development server:
+    ```bash
+   npm start
+
+[website link]() not available yet!
+
