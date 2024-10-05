@@ -1,0 +1,80 @@
+@import '../../../Shares/main.css';
+.activity{
+    width: 92%;
+    min-height: 120vh;
+    margin: auto;
+}
+.activity h2{
+    color: var(--light-color);
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 40px;
+    font-weight: 600;
+}
+.card-container{
+    width: 100%;
+    margin-top: 50px;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.activity-btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 24px;
+    border: 0;
+    border-radius: 5px ;
+    color: var(--light-color);
+    transition: 0.3s;
+    background: url("../../../Assets/galaxy.png");
+    background-size: cover;
+    transition: 0.5s ease-in-out;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.activity-btn:hover{
+    background-position: right center;
+}
+
+@media (max-width:900px) {
+    .card-container{
+        width: 70%;
+        width: 100%;
+        margin-top: 50px;
+        min-height: 10vh;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items:center;
+    }
+    .activity{
+        width: 95%;
+    }
+    .activity h2{
+        font-size: 36px;
+    }
+    .activity-btn{
+        margin-top: 40px;
+        font-size: 24px;
+        padding: 10px 20px;
+    }
+}
+@media (max-width:750px) {
+    .activity h2{
+        font-size: 32px;
+    }
+    .activity-btn{
+        font-size: 22px;
+    }
+}
+@media (max-width:357px) {
+    .activity h2{
+        font-size: 26px;
+    }
+}

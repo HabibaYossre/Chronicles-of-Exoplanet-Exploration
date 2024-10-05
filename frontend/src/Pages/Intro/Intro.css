@@ -1,0 +1,116 @@
+@import '../../Shares/main.css';
+.intro-page{
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('../../Assets/intro2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+}
+.intro-content{
+    width: 60%;
+    min-height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.intro-content h1{
+    color:var(--light-color) ;
+    font-size: 50px;
+    font-weight: 700;
+}
+.intro-content p{
+    padding: 0px 50px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.intro-p1{
+    color:var(--text-color) ;
+}
+.intro-p2{
+    font-weight: 500;
+    color:var(--light-color2) ;
+}
+.intro-content button{
+    background: url("../../Assets/galaxy.png");
+    background-size: cover;
+    min-width: 200px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    border-radius: 25px ;
+    color: var(--light-color);
+    transition: 0.3s;
+    transition: 0.5s ease-in-out;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.656) 0px 54px 55px, rgba(115, 7, 217, 0.793) 0px -12px 30px, rgba(0, 0, 0, 0.985) 0px 4px 6px, rgba(0, 0, 0, 0.941) 0px 12px 13px, rgba(255, 255, 255, 0.788) 0px -3px 5px;
+}
+.intro-content button:hover{
+    background-position: right center;
+}
+@media (max-width:900px) {
+    .intro-content{
+        width: 70%;
+        min-height: 70%;
+    }
+    .intro-content h1{
+        font-size: 42px;
+    }
+    .intro-content p{
+        padding: 0px 30px;
+        font-size: 16px;
+    }
+    .intro-content button{
+        min-width: 150px;
+        height: 60px;
+        font-size: 18px;
+    }    
+}
+@media (max-width:750px) {
+    .intro-content{
+        width: 80%;
+    }
+    .intro-content h1{
+        font-size: 30px;
+    }
+    .intro-content p{
+        padding: 0px 20px;
+        font-size: 14px;
+    }
+    .intro-content button{
+        min-width: 150px;
+        height: 60px;
+        font-size: 16px;
+    }    
+}
+@media (max-width:357px) {
+    .intro-content{
+        width: 80%;
+    }
+    .intro-content h1{
+        font-size: 24px;
+    }
+    .intro-content p{
+        padding: 0px 15px;
+        font-size: 12px;
+    }
+    .intro-content button{
+        min-width: 150px;
+        height: 60px;
+        font-size: 14px;
+    }   
+}

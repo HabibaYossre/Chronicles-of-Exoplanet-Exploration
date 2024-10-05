@@ -46,6 +46,16 @@
   background-color: black;
   opacity: 0.6;
 }
+
+.icons {
+  position: fixed;
+  top: 88vh;
+  z-index: 2000;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+}
+
 @keyframes astKey {
   0% {
     transform: translateX(5px) translateY(0); /* Starting position */

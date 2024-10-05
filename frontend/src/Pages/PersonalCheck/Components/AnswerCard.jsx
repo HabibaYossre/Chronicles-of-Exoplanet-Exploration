@@ -13,22 +13,28 @@ const bull = (
     •
   </Box>
 );
-export default function AnswerCard({ props }) {
+export default function AnswerCard({ options,onCardClick  }) {
+  const handleFocus = (event) => {
+    event.currentTarget.classList.add('focused');
+  };
+
+  const handleBlur = (event) => {
+    event.currentTarget.classList.remove('focused');
+  };
+
   return (
-    <Card className="py-6" sx={{ minWidth: 275, overflow: "visible", position: "relative" }}>
-      <CardActions className="relative gradient-shadow hover:scale-100 duration-700 py-10">
-        <CardContent>
-          <Typography
-            gutterBottom
-            sx={{ color: "text.secondary", fontSize: 14 }}
-          >
-            {props.number}
-          </Typography>
-          <Typography variant="h5" component="div">
-            {props.answer}
-          </Typography>
-        </CardContent>
-      </CardActions>
-    </Card>
+      options.map((option, ind) => (
+      <Card key={ind} sx={{ textAlign:"center", overflow: "visible", position: "relative" }} className="one-card"  tabIndex={0}
+      onFocus={handleFocus}
+      onBlur={handleBlur}>
+        <CardActions className="relative gradient-shadow hover:scale-100 duration-700 activity-choice"  onClick={() => onCardClick(option.value)}>
+          <CardContent>
+            <Typography variant="h5" component="div">
+              {option.label}
+            </Typography>
+          </CardContent>
+        </CardActions>
+      </Card>
+    ))
   );
 }

@@ -46,6 +46,14 @@ const Information = () => {
         <img src={assets.home2} draggable='false'/>
         </div>
       </div>
+      <div style={{ position: "relative", overflow: "hidden", marginTop:"100px" , display:"flex" , justifyContent:"center" }}>
+         <iframe title="What Is an Exoplanet?" style={{
+            minWidth: "70%",
+            minHeight: "80vh",
+
+          }} src="https://www.youtube.com/embed/0ZOhJe_7GrE?feature=oembed&enablejsapi=1&origin=https://science.nasa.gov" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="0ZOhJe_7GrE" data-gtm-yt-inspected-6="true">
+         </iframe>
+        </div>
     </div>
   )
 }

@@ -1,3 +1,4 @@
+@import '../../../Shares/main.css';
 .gradient-shadow {
   position: relative;
   overflow: visible;
@@ -25,4 +26,27 @@
 .gradient-shadow:hover::before {
   opacity: 1; /* Show the gradient shadow on hover */
 }
-
+.activity-choice{
+  cursor: pointer;
+  background: url("../../../Assets/galaxy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--light-color);
+}
+.focused {
+  /* Add your desired focus styles here */
+  border: 3px solid var(--light-color); /* Example: Add a blue outline on focus */
+}
+.one-card{
+  min-width: 20vw;
+}
+@media (max-width:900px) {
+  .one-card{
+    min-width: 60vw;
+  }
+}
+@media (max-width:357) {
+  .one-card{
+    min-width: 90vw;
+  }
+}

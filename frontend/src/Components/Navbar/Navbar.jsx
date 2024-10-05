@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar w-full">
       <div className="list">
-        <NavLink to="/" style={activeStyle}>
+        <NavLink to="/home" style={activeStyle}>
           Home
         </NavLink>
         <NavLink to="/Personality_test" style={activeStyle}>
