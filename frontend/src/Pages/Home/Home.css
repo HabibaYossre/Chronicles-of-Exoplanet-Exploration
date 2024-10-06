@@ -1,3 +1,4 @@
+@import '../../Shares/main.css';
 .video{
     
 }
@@ -55,7 +56,36 @@
   width: 60px;
   height: 60px;
 }
+.tooltip {
+  visibility: hidden; /* Hide tooltip by default */
+  width: 120px; /* Width of the tooltip */
+  background-color:var(--second-color);
+  color: #fff; /* Text color */
+  text-align: center; /* Center text */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px; /* Padding */
+  position: absolute; /* Positioning */
+  top: 10px;
+  right: 80px;
+  transition: visibility 0.2s, opacity 0.2s ease-in-out; /* Smooth transition */
+  opacity: 0; 
+  font-weight: 500;
+}
+.tooltip::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent var(--second-color);
+}
 
+.icons:hover .tooltip {
+  visibility: visible; /* Show tooltip on hover */
+  opacity: 1; /* Fade in */
+}
 @keyframes astKey {
   0% {
     transform: translateX(5px) translateY(0); /* Starting position */

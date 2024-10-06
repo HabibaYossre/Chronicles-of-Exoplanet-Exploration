@@ -139,8 +139,8 @@ function Break({childern}) {
 function Chatbot(){
   return(
     <div className="icons">
-      <Link to='#'><img src={assets.chatIcon} draggable='false' alt="Chatbot Icon"/></Link>
-      {/* <a href="#"><i class="fa-brands fa-facebook-f  m-3 text-center fs-3"></i></a> */}
+      <Link to='/chatbot'><img src={assets.chatIcon} draggable='false' alt="Chatbot Icon"/></Link>
+      <div className="tooltip">Chat with me</div>
   </div>
   );
 }

@@ -11,6 +11,7 @@ const LazyThankYou = lazy(() => import("./Pages/ThankYou/ThankYou"));
 const LazyPlanetInfo = lazy(() => import("./Pages/PlanetInfo/PlanetInfo"));
 const LazyPersonalCheck = lazy(()=>import('./Pages/PersonalCheck/PersonalCheck'));
 const LazyIntro = lazy(() => import("./Pages/Intro/Intro"));
+const LazyChatbot = lazy(() => import("./Pages/Chatbot/Chatbot"));
 function App() {
   return (
     <div className="App">
@@ -82,6 +83,16 @@ function App() {
               fallback={<div className="bg-black h-screen">Loading...</div>}
             >
               <LazyPlanetInfo />
+            </Suspense>
+          }
+        />
+         <Route
+          path="/chatbot"
+          element={
+            <Suspense
+              fallback={<div className="bg-black h-screen">Loading...</div>}
+            >
+              <LazyChatbot />
             </Suspense>
           }
         />

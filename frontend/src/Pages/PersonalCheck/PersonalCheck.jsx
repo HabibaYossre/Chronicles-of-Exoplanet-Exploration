@@ -31,7 +31,14 @@ function PersonalCheck() {
   
       fetchData();
     }, []);
-  
+
+    const speakMessage = (message) => {
+      const speech = new SpeechSynthesisUtterance(message);
+      speech.lang = 'en-US'; 
+      window.speechSynthesis.speak(speech);
+  };
+
+
     const handleNextClick = () => {
       if (answer === '') {
         Swal.fire({
@@ -72,6 +79,7 @@ function PersonalCheck() {
       if (audioRef.current) { 
         audioRef.current.play(); 
       }
+      speakMessage("Your personality is similar to a Gas Giant like GJ 504 b. Discover more about it!");
       Swal.fire({
         title: "Good job!",
         text: "Your personality is similar to a Gas Giant like GJ 504 b. Discover more about it!",
@@ -81,15 +89,15 @@ function PersonalCheck() {
       }).then((result) => {
         if (result.isConfirmed) {
           navigate("/cards/GJ_504_b"); 
-        } else if (result.dismiss === Swal.DismissReason.cancel) {
-          Swal.fire({
-            title: "About GJ 504 b",
-            html: `GJ 504 b is a gas giant exoplanet orbiting the red dwarf star GJ 504 in the constellation Libra. 
-                    It is one of the densest exoplanets known, with a mass about four times that of Jupiter 
-                    but a radius only slightly larger than Neptune. 
-                    (You can add more information here)`,
-            confirmButtonColor: "#3085d6",
-          });
+        // } else if (result.dismiss === Swal.DismissReason.cancel) {
+        //   Swal.fire({
+        //     title: "About GJ 504 b",
+        //     html: `GJ 504 b is a gas giant exoplanet orbiting the red dwarf star GJ 504 in the constellation Libra. 
+        //             It is one of the densest exoplanets known, with a mass about four times that of Jupiter 
+        //             but a radius only slightly larger than Neptune. 
+        //             (You can add more information here)`,
+        //     confirmButtonColor: "#3085d6",
+        //   });
         }
       });
   }
@@ -152,6 +160,7 @@ function PersonalCheck() {
         <source src={require("../../Assets/audio/card-sounds-35956.mp3")} type="audio/mp3"/>
       </audio>
     </div>
+    
     <Footer />
     </>
   );
