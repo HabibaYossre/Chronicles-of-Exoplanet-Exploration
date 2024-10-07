@@ -41,7 +41,7 @@ export const getRandomQuestions = async () => {
 export const postAnswers = async (answers) => {
 
     // post the answers to the server
-    const response = await axios.post(`https://exoplanet-ai-api.onrender.com/predict`, answers);
+    const response = await axios.post(`${process.env.AI_API_URL}/predict`, answers);
 
     console.log(response.data);
 
