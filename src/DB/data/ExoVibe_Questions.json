@@ -138,15 +138,15 @@
                     "options": [
                         {
                             "label": "Cozy and compact",
-                            "value": "Mini-Earth, Mini-Neptune"
+                            "value": "Mini_Earth, Mini_Neptune"
                         },
                         {
                             "label": "Comfortable and spacious",
-                            "value": "Earth-like, Sub-Jovian"
+                            "value": "Earth_like, Sub_Jovian"
                         },
                         {
                             "label": "Grand and luxurious",
-                            "value": "Super-Jovian, Jovian"
+                            "value": "Super_Jovian, Jovian"
                         }
                     ]
                 },
@@ -155,15 +155,15 @@
                     "options": [
                         {
                             "label": "Intimate and personal",
-                            "value": "Mini-Earth, Mini-Neptune"
+                            "value": "Mini_Earth, Mini_Neptune"
                         },
                         {
                             "label": "Balanced and enjoyable",
-                            "value": "Earth-like, Sub-Jovian"
+                            "value": "Earth_like, Sub_Jovian"
                         },
                         {
                             "label": "Extravagant and over the top!",
-                            "value": "Super-Jovian, Jovian"
+                            "value": "Super_Jovian, Jovian"
                         }
                     ]
                 },
@@ -172,15 +172,15 @@
                     "options": [
                         {
                             "label": "I\u2019m quite reserved",
-                            "value": "Mini-Earth, Mini-Neptune"
+                            "value": "Mini_Earth, Mini_Neptune"
                         },
                         {
                             "label": "I have a balanced personality",
-                            "value": "Earth-like, Sub-Jovian"
+                            "value": "Earth_like, Sub_Jovian"
                         },
                         {
                             "label": "I\u2019m very outgoing!",
-                            "value": "Super-Jovian, Jovian"
+                            "value": "Super_Jovian, Jovian"
                         }
                     ]
                 },
@@ -189,15 +189,15 @@
                     "options": [
                         {
                             "label": "A peaceful retreat",
-                            "value": "Mini-Earth, Mini-Neptune"
+                            "value": "Mini_Earth, Mini_Neptune"
                         },
                         {
                             "label": "A mix of relaxation and fun",
-                            "value": "Earth-like, Sub-Jovian"
+                            "value": "Earth_like, Sub_Jovian"
                         },
                         {
                             "label": "A thrilling adventure!",
-                            "value": "Super-Jovian, Jovian"
+                            "value": "Super_Jovian, Jovian"
                         }
                     ]
                 }
@@ -491,7 +491,7 @@
                         },
                         {
                             "label": "I like to be recognized",
-                            "value": "high_stellar_magnitude"
+                            "value": "High_stellar_magnitude"
                         }
                     ]
                 },
