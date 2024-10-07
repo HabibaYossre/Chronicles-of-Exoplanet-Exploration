@@ -28,3 +28,17 @@ export const getRandomQuestions = async (req, res, next) => {
         next(error);
     }
 };
+
+// Post answers
+export const postAnswers = async (req, res, next) => {
+    try {
+        const result = await questionService.postAnswers(req.body);
+        res.status(200).json({
+            message: "Answers posted successfully!",
+            body: result,
+            status: 200,
+        });
+    } catch (error) {
+        next(error);
+    }
+};

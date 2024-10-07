@@ -9,4 +9,7 @@ router.post("/", questionControllers.addQuestions);
 // router to pick one random question from each feature
 router.get("/random", questionControllers.getRandomQuestions);
 
+// router to post answers
+router.post("/answers", questionControllers.postAnswers);
+
 export default router;
