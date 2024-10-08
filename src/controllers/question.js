@@ -33,6 +33,11 @@ export const getRandomQuestions = async (req, res, next) => {
 export const postAnswers = async (req, res, next) => {
     try {
         const result = await questionService.postAnswers(req.body);
+
+        if (!result) {
+            throw createCustomError("No result found!", 400, null);
+        }
+
         res.status(200).json({
             message: "Answers posted successfully!",
             body: result,

@@ -34,18 +34,15 @@ export const getRandomQuestions = async () => {
     return Array.from(randomQuestions);
 };
 
-// service to post answers to the database
-// request body will be like: {"responses": ["Nearby", "Small_planet_mass", "Low_host_radius", "Low_host_mass", "Low_eccentricity", "Low_stellar_magnitude", "Cool", "Sub-Neptune"]}
-// using Axios to post the data to the server: https://exoplanet-ai-api.onrender.com/predict
-
 export const postAnswers = async (answers) => {
 
+    const protocol = process.env.AI_API_PROTOCOL;
+    const url = process.env.AI_API_URL;
+
+    // console.log(`${protocol}://${url}/predict`);
+
     // post the answers to the server
-    const response = await axios.post(`${process.env.AI_API_URL}/predict`, answers);
+    const response = await axios.post(`${protocol}://${url}/predict`, answers);
 
-    console.log(response.data);
-
-
-    // return the response
     return response.data;
 };
