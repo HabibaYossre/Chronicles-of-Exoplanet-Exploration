@@ -349,7 +349,7 @@
                         },
                         {
                             "label": "I enjoy a large circle of friends!",
-                            "value": "High_host_mass"
+                            "value": "Large_host_mass"
                         }
                     ]
                 },
@@ -366,7 +366,7 @@
                         },
                         {
                             "label": "Large parties and celebrations!",
-                            "value": "High_host_mass"
+                            "value": "Large_host_mass"
                         }
                     ]
                 },
@@ -383,7 +383,7 @@
                         },
                         {
                             "label": "Participating in large groups!",
-                            "value": "High_host_mass"
+                            "value": "Large_host_mass"
                         }
                     ]
                 },
@@ -400,7 +400,7 @@
                         },
                         {
                             "label": "Dynamic and busy!",
-                            "value": "High_host_mass"
+                            "value": "Large_host_mass"
                         }
                     ]
                 }
@@ -414,7 +414,7 @@
                     "options": [
                         {
                             "label": "Cozy and compact",
-                            "value": "Small_host_radius"
+                            "value": "Low_host_radius"
                         },
                         {
                             "label": "Comfortable and average",
@@ -431,7 +431,7 @@
                     "options": [
                         {
                             "label": "A tight-knit neighborhood",
-                            "value": "Small_host_radius"
+                            "value": "Low_host_radius"
                         },
                         {
                             "label": "A balanced community",
@@ -448,7 +448,7 @@
                     "options": [
                         {
                             "label": "Small, intimate places",
-                            "value": "Small_host_radius"
+                            "value": "Low_host_radius"
                         },
                         {
                             "label": "Moderate-sized towns",
@@ -465,7 +465,7 @@
                     "options": [
                         {
                             "label": "A small, cozy retreat",
-                            "value": "Small_host_radius"
+                            "value": "Low_host_radius"
                         },
                         {
                             "label": "A balanced and comfortable house",
@@ -487,11 +487,11 @@
                     "options": [
                         {
                             "label": "I prefer to blend in",
-                            "value": "low_stellar_magnitude"
+                            "value": "Low_stellar_magnitude"
                         },
                         {
                             "label": "I like to be recognized",
-                            "value": "high_stellar_magnitude"
+                            "value": "High_stellar_magnitude"
                         }
                     ]
                 },
