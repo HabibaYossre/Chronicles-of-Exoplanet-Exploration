@@ -40,12 +40,12 @@ app.use(xss());
 app.use(`${process.env.BASE_URL}/uploads`, express.static("public/uploads"));
 
 // routes
-app.use(`${process.env.BASE_URL}/`, (req, res) => {
-    res.send("Welcome to the exoplanets API");
-});
 app.use(`${process.env.BASE_URL}/planets`, planetRoutes);
 app.use(`${process.env.BASE_URL}/comments`, commentRoutes);
 app.use(`${process.env.BASE_URL}/questions`, questionRoutes);
+app.use(`${process.env.BASE_URL}/`, (req, res) => {
+    res.send("Welcome to the exoplanets API");
+});
 
 app.use(errorHandler);
 app.use(notFoundHandler);
