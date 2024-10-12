@@ -19,6 +19,7 @@
     "express-mongo-sanitize": "^2.2.0",
     "helmet": "^7.1.0",
     "mongoose": "^8.6.3",
+    "ollama": "^0.5.9",
     "xss-clean": "^0.1.4"
   },
   "devDependencies": {

@@ -11,6 +11,7 @@ import notFoundHandler from "./src/middlewares/errors/notFoundHandler.js";
 import planetRoutes from "./src/routes/planet.js";
 import commentRoutes from "./src/routes/comment.js";
 import questionRoutes from "./src/routes/question.js";
+import chatRoutes from "./src/routes/chat.js";
 
 // Load environment variables from .env file
 dotenv.config();
@@ -43,6 +44,8 @@ app.use(`${process.env.BASE_URL}/uploads`, express.static("public/uploads"));
 app.use(`${process.env.BASE_URL}/planets`, planetRoutes);
 app.use(`${process.env.BASE_URL}/comments`, commentRoutes);
 app.use(`${process.env.BASE_URL}/questions`, questionRoutes);
+app.use(`${process.env.BASE_URL}/chat`, chatRoutes);
+
 // app.use(`${process.env.BASE_URL}/`, (req, res) => {
 //     res.send("Welcome to the exoplanets API");
 // });
