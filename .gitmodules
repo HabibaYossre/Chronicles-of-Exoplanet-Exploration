@@ -2,3 +2,7 @@
 	path = backend
 	url = https://github.com/HabibaYossre/Chronicles-of-Exoplanet-Exploration.git
 	branch = backend
+[submodule "Personality_Test_API"]
+	path = Personality_Test_API
+	url = https://github.com/BishoySedra/NASA-Space-Apps-2024.git
+	branch = AI
