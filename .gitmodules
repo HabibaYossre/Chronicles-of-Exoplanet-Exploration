@@ -6,3 +6,7 @@
 	path = Personality_Test_API
 	url = https://github.com/BishoySedra/NASA-Space-Apps-2024.git
 	branch = AI
+[submodule "Chatbot_API"]
+	path = Chatbot_API
+	url = https://github.com/BishoySedra/NASA-Space-Apps-2024.git
+	branch = chatbot-api
